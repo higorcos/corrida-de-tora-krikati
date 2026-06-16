@@ -81,36 +81,14 @@ export default function Home() {
           <h2 className="section-title mb-6">Memória que resiste</h2>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed mb-6">
-            Os Krikati habitam a Mata Atlântica há milênios. São cerca de 27 mil pessoas no Brasil, distribuídas em aldeias do Rio Grande do Sul ao Espírito Santo — muitas delas cercadas por cidades que não sabem que as florestas que restam existem por causa deles.
+            O povo indígena Krikatí pertence ao grupo Timbira (tronco Macro-Jê) e habita a Terra Indígena Krikati, localizada no sudoeste do Maranhão. Com uma população de cerca de 1.000 pessoas, eles mantêm viva a língua Gê, a tradicional organização em aldeias circulares e rituais marcantes como a corrida de tora, simbolizando séculos de resistência cultural e territorial na região de transição entre o Cerrado e a Amazônia.
           </p>
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
-            Este projeto reúne vídeos, crônicas e fotografias produzidos em diálogo com as comunidades Krikati de São Paulo. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
+            Este projeto reúne vídeos, crônicas e fotografias produzidos em diálogo com as comunidades Krikati no sudoeste do Maranhão. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
           </p>
         </div>
       </section>
 
-      {/* VÍDEOS EM DESTAQUE */}
-      <section className="py-20 bg-terra-700">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="flex items-end justify-between mb-10">
-            <div>
-              <span className="section-label">Documentários</span>
-              <h2 className="section-title">Vídeos em Destaque</h2>
-            </div>
-            <Link to="/videos" className="btn-ghost text-sm hidden md:inline-block">
-              Ver todos
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {videos.slice(0, 3).map(v => (
-              <VideoCard key={v.id} video={v} onClick={setActiveVideo} />
-            ))}
-          </div>
-          <div className="mt-8 text-center md:hidden">
-            <Link to="/videos" className="btn-ghost">Ver todos os vídeos</Link>
-          </div>
-        </div>
-      </section>
 
       {/* Faixa decorativa */}
       <div className="h-2 geo-line" />
@@ -155,6 +133,30 @@ export default function Home() {
           </div>
           <div className="text-center mt-8">
             <Link to="/galeria" className="btn-primary">Ver galeria completa</Link>
+          </div>
+        </div>
+      </section>
+
+
+        {/* VÍDEOS EM DESTAQUE */}
+      <section className="py-20 bg-terra-700">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex items-end justify-between mb-10">
+            <div>
+              <span className="section-label">Documentários</span>
+              <h2 className="section-title">Vídeos em Destaque</h2>
+            </div>
+            <Link to="/videos" className="btn-ghost text-sm hidden md:inline-block">
+              Ver todos
+            </Link>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {videos.slice(0, 3).map(v => (
+              <VideoCard key={v.id} video={v} onClick={setActiveVideo} />
+            ))}
+          </div>
+          <div className="mt-8 text-center md:hidden">
+            <Link to="/videos" className="btn-ghost">Ver todos os vídeos</Link>
           </div>
         </div>
       </section>

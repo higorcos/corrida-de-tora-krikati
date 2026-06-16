@@ -3,9 +3,9 @@ import { NavLink, Link } from 'react-router-dom'
 
 const links = [
   { to: '/',        label: 'Início'   },
-  { to: '/videos',  label: 'Vídeos'   },
   { to: '/cronicas',label: 'Crônicas' },
   { to: '/galeria', label: 'Galeria'  },
+  { to: '/videos',  label: 'Vídeos'   },
 ]
 
 export default function Navbar() {
