@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="w-1.5 h-10 bg-urucum block" />
               <div>
                 <p className="font-display text-xl text-terra-50">Corrida de tora</p>
-                <p className="text-terra-400 text-xs tracking-widest uppercase">Passado, presente e futuro.</p>
+                <p className="text-terra-400 text-xs tracking-widest uppercase">Passado, presente e futuro</p>
               </div>
             </div>
             <p className="font-serif text-terra-300 text-sm leading-relaxed">

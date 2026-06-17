@@ -51,16 +51,16 @@ export default function Home() {
         <div className="absolute right-0 top-0 bottom-0 w-2 geo-line opacity-60" />
 
         <div className="relative max-w-6xl mx-auto px-6 w-full animate-fade-in">
-         {/* <span className="section-label text-terra-200 mb-4">Corrida de tora</span>*/}
+          <span className="section-label text-terra-200 mb-4">Paulo Ferraz</span>
           <h1 className="font-display text-5xl lg:text-1xl text-terra-50 leading-none mb-6">
-            <br />
-            {/*<span className="text-urucum"> Corrida de tora dos povos indígenas Krikati da aldeia São José de Montes Altos-MA</span>*/}
+            {/*<br />
+            <span className="text-urucum"> Paulo Ferraz</span>*/}
           </h1>
           <p className="font-display text-3xl lg:text-7xl text-terra-50 leading-none mb-6">
             Corrida de tora dos povos indígenas Krikati da aldeia São José de Montes Altos-MA
           </p>
           <p className="font-serif text-xl md:text-2xl text-terra-200 max-w-2xl leading-relaxed mb-8">
-            Passado, presente e futuro.
+            Passado, presente e futuro
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/cronicas" className="btn-primary">Ler Crônicas</Link>
@@ -101,7 +101,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-end justify-between mb-10">
             <div>
-              <span className="section-label">Longform</span>
+          
               <h2 className="section-title">Crônicas Recentes</h2>
             </div>
             <Link to="/cronicas" className="btn-ghost text-sm hidden md:inline-block">
