@@ -64,7 +64,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/longform" className="btn-primary">Ler Longform</Link>
-            <Link to="/galeria"  className="btn-ghost">Ver Galeria</Link>
+            <Link to="/galeria" className="btn-ghost">Ver Galeria</Link>
           </div>
         </div>
 
@@ -80,14 +80,29 @@ export default function Home() {
       {/* SOBRE */}
       <section className="py-20 bg-terra-600">
         <div className="max-w-3xl mx-auto px-6 text-center">
-         
+
           <h2 className="section-title mb-6">Passado, presente e futuro.</h2>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
-          <p className="font-serif text-lg text-terra-100 leading-relaxed mb-6">
-            O povo indígena Krikatí pertence ao grupo Timbira (tronco Macro-Jê) e habita a Terra Indígena Krikati, localizada no sudoeste do Maranhão. Com uma população de cerca de 1.000 pessoas, eles mantêm viva a língua Gê, a tradicional organização em aldeias circulares e rituais marcantes como a corrida de tora, simbolizando séculos de resistência cultural e territorial na região de transição entre o Cerrado e a Amazônia.
+          <p className="font-serif text-lg text-terra-100 leading-relaxed">
+
+            A Corrida de Tora é uma das mais importantes expressões culturais do povo Krikati, pertencente ao conjunto dos povos Timbira, no Maranhão. Mais do que uma corrida, ela reúne memória, espiritualidade, identidade e conhecimentos transmitidos entre gerações.
+          </p>
+
+          <p className="font-serif text-lg text-terra-100 leading-relaxed">
+
+            Preservada principalmente pela tradição oral, a prática continua ocupando um papel central na vida da comunidade, conectando passado, presente e futuro.
+          </p>
+
+          <p className="font-serif text-lg text-terra-100 leading-relaxed">
+
+            Este trabalho apresenta um mergulho na Corrida de Tora a partir da convivência com os moradores da Aldeia São José e do acompanhamento de um ritual de encerramento de luto.
           </p>
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
-            Este projeto reúne vídeos, longform e fotografias produzidos em diálogo com as comunidades Krikati no sudoeste do Maranhão. É um convite a conhecer um povo que não quer ser lembrado como passado — porque está muito presente.
+
+            Ao longo dos quatro capítulos, o leitor conhecerá como era a tradição antigamente, os significados e símbolos que envolvem o ritual, a vivência dos três dias da corrida e os desafios enfrentados para manter viva uma das mais importantes expressões culturais do povo Krikati.
+          </p>
+          <p className="font-serif text-lg text-terra-100 leading-relaxed">
+
           </p>
         </div>
       </section>
@@ -99,7 +114,7 @@ export default function Home() {
       {/* longformS */}
       <section className="py-20 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
-         <div className="text-center mb-10">
+          <div className="text-center mb-10">
             <span className="section-label">LongForm</span>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
@@ -133,8 +148,8 @@ export default function Home() {
         </div>
       </section>
 
-        {/* VÍDEOS EM DESTAQUE */}
-{/*
+      {/* VÍDEOS EM DESTAQUE */}
+      {/*
       <section className="py-20 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
            <div className="text-center mb-10">
