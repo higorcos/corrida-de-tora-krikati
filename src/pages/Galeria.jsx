@@ -18,9 +18,7 @@ export default function Galeria() {
         <div className="max-w-6xl mx-auto px-6 relative">
           <span className="section-label">Fotografias</span>
           <h1 className="section-title text-4xl md:text-5xl">Galeria</h1>
-          <p className="font-serif text-terra-300 mt-3 text-lg max-w-xl">
-            Imagens do cotidiano, dos rituais e das paisagens que moldam a vida Krikati.
-          </p>
+         
         </div>
       </div>
 

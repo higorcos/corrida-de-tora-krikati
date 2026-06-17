@@ -5,7 +5,9 @@ const links = [
   { to: '/',        label: 'Início'   },
   { to: '/longform',label: 'Longform' },
   { to: '/galeria', label: 'Galeria'  },
+  {/*
   { to: '/videos',  label: 'Vídeos'   },
+   */}
 ]
 
 export default function Navbar() {

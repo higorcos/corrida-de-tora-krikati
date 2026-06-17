@@ -80,7 +80,7 @@ export default function Home() {
       {/* SOBRE */}
       <section className="py-20 bg-terra-600">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <span className="section-label">O Projeto</span>
+         
           <h2 className="section-title mb-6">Passado, presente e futuro.</h2>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed mb-6">
@@ -114,8 +114,7 @@ export default function Home() {
       <section className="py-20 bg-terra-600">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10">
-            <span className="section-label">Fotografias</span>
-            <h2 className="section-title">Galeria</h2>
+            <h3 className="section-label">Fotografias</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {galeria.slice(0, 4).map(img => (
@@ -134,18 +133,12 @@ export default function Home() {
         </div>
       </section>
 
-
         {/* VÍDEOS EM DESTAQUE */}
+{/*
       <section className="py-20 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="flex items-end justify-between mb-10">
-            <div>
-              <span className="section-label">Documentários</span>
-              <h2 className="section-title">Vídeos em Destaque</h2>
-            </div>
-            <Link to="/videos" className="btn-ghost text-sm hidden md:inline-block">
-              Ver todos
-            </Link>
+           <div className="text-center mb-10">
+            <span className="section-label">Vídeos</span>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {videos.slice(0, 3).map(v => (
@@ -157,7 +150,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+*/}
       {activeVideo && <VideoModal video={activeVideo} onClose={() => setActiveVideo(null)} />}
     </>
   )

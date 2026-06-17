@@ -39,11 +39,8 @@ export default function Videos() {
       <div className="page-hero">
         <div className="absolute inset-0 indigenous-pattern opacity-30" />
         <div className="max-w-6xl mx-auto px-6 relative">
-          <span className="section-label">Documentários</span>
           <h1 className="section-title text-4xl md:text-5xl">Vídeos</h1>
-          <p className="font-serif text-terra-300 mt-3 text-lg max-w-xl">
-            Documentários, registros e depoimentos sobre a cultura e o cotidiano Krikati.
-          </p>
+          
         </div>
       </div>
 
