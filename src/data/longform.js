@@ -10,12 +10,12 @@ import img08 from '../../img/img08.jpeg'
 export const longform = [
   {
     id: 1,
-    slug: 'capitulo-1-origens-detalhadas',
-    titulo: 'Capítulo 1 - Origens detalhadas',
+    slug: 'capitulo-1',
+    titulo: '“A Corrida de Tora é a identidade que os mais velhos deixaram para nós”',
     autor: 'Paulo Ferraz',
     data: 'junho de 2026',
     capa: img01,
-    resumo: 'A Corrida de Tora é uma tradição ancestral dos Krikati, preservada pela oralidade e transmitida pelos mais velhos. Mais que um esporte, ela representa identidade, memória e união comunitária. A prática organiza-se entre os clãs Partido de Cima e Partido de Baixo e fortalece os vínculos culturais. Mesmo com mudanças ao longo do tempo, continua sendo um dos principais símbolos da resistência e da cultura Krikati.',
+    resumo: 'Origens e transformações',
     sections: [
       {
         type: 'texto',
@@ -176,12 +176,12 @@ os mais jovens, orientam os preparativos, preservam os cantos tradicionais e gar
   },
   {
     id: 2,
-    slug: 'capitulo-2-o-ritual-e-seus-simbolos',
-    titulo: 'Capítulo 2 - O ritual e seus símbolos',
+    slug: 'capitulo-2',
+    titulo: '“A Corrida de Tora representa um movimento ancestral e político”',
     autor: 'Paulo Ferraz',
     data: 'junho de 2026',
     capa: img04,
-    resumo: '',
+    resumo: 'O ritual e os seus símbolos',
     sections: [
       {
         type: 'texto',
@@ -219,12 +219,12 @@ Essa relação com o tempo e com a terra é o que os Guarani chamam de tekó por
   },
   {
     id: 3,
-    slug: 'capitulo-3-vivencia-da-corrida-de-tora',
-    titulo: 'Capítulo 3 - Vivência da corrida de tora',
+    slug: 'capitulo-3',
+    titulo: '“Cantoria, corrida, pintura e luto: estão todos ligados ao ritual”',
     autor: 'Paulo Ferraz',
     data: 'junho de 2026',
     capa: img07,
-    resumo: '',
+    resumo: 'Uma vivência na Corrida de Tora',
     sections: [
       {
         type: 'texto',
@@ -259,12 +259,12 @@ Hoje, o asfalto corta o caminho.`,
   },
     {
     id: 4,
-    slug: 'capitulo-4-presente-e-futuro',
-    titulo: 'Capítulo 4 - Presente e futuro',
+    slug: 'capitulo-4',
+    titulo: '“Às vezes os jovens ficam só ligados no mundo ocidental e esquecem o que está no sangue deles”',
     autor: 'Paulo Ferraz',
     data: 'junho de 2026',
     capa: img02,
-    resumo: '',
+    resumo: 'As novas tecnologias e as transformações do ritual',
     sections: [
       {
         type: 'texto',

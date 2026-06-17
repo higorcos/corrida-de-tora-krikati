@@ -57,7 +57,7 @@ export default function Home() {
             <span className="text-urucum"> Paulo Ferraz</span>*/}
           </h1>
           <p className="font-display text-3xl lg:text-7xl text-terra-50 leading-none mb-6">
-            Não é só uma brincadeira ou competição
+            "Não é só uma brincadeira ou competição"
           </p>
           <p className="font-serif text-xl md:text-2xl text-terra-200 max-w-2xl leading-relaxed mb-8">
             União e resistência na tradição da Corrida de Tora dos povos indígenas Krikati no Maranhão
@@ -81,7 +81,7 @@ export default function Home() {
       <section className="py-20 bg-terra-600">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <span className="section-label">O Projeto</span>
-          <h2 className="section-title mb-6">Memória que resiste</h2>
+          <h2 className="section-title mb-6">Passado, presente e futuro.</h2>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed mb-6">
             O povo indígena Krikatí pertence ao grupo Timbira (tronco Macro-Jê) e habita a Terra Indígena Krikati, localizada no sudoeste do Maranhão. Com uma população de cerca de 1.000 pessoas, eles mantêm viva a língua Gê, a tradicional organização em aldeias circulares e rituais marcantes como a corrida de tora, simbolizando séculos de resistência cultural e territorial na região de transição entre o Cerrado e a Amazônia.
@@ -99,14 +99,8 @@ export default function Home() {
       {/* longformS */}
       <section className="py-20 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="flex items-end justify-between mb-10">
-            <div>
-          
-              <h2 className="section-title">Longform Recentes</h2>
-            </div>
-            <Link to="/longform" className="btn-ghost text-sm hidden md:inline-block">
-              Ver todas
-            </Link>
+         <div className="text-center mb-10">
+            <span className="section-label">LongForm</span>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
             {longform.map(c => (
