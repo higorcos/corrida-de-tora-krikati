@@ -22,6 +22,15 @@ import cap1_img10_A from '../../img/cap1/10_A.jpeg'
 import cap1_img11 from '../../img/cap1/11.png'
 import cap1_img12 from '../../img/cap1/12.png'
 import cap1_img13 from '../../img/cap1/13.png'
+/*
+
+
+
+
+
+
+
+*/
 
 
 
