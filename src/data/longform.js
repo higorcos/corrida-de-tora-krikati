@@ -44,7 +44,7 @@ export const longform = [
       },
 
       {
-        type: 'imagensVerticaisParalelas',
+        type: 'imagensParalelas',
         fotos: [
           { src: cap1_img1},
           { src: cap1_img2 },

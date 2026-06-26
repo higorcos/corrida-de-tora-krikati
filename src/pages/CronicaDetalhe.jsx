@@ -14,11 +14,11 @@ function Section({ section }) {
 
   if (section.type === 'imagem') {
     return (
-      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
+      <figure className="my-12">
         <img
           src={section.src}
           alt={section.legenda || ''}
-          className="w-full max-h-[600px] object-cover"
+          className="max-h-[480px] w-auto mx-auto block object-cover"
         />
         {section.legenda && (
           <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
@@ -31,11 +31,11 @@ function Section({ section }) {
 
   if (section.type === 'imagemVertical') {
     return (
-      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
+      <figure className="my-12">
         <img
           src={section.src}
           alt={section.legenda || ''}
-          className=" max-h-[600px] object-cover mx-auto"
+          className="max-h-[480px] w-auto mx-auto block"
         />
         {section.legenda && (
           <figcaption className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
@@ -49,14 +49,14 @@ function Section({ section }) {
   if (section.type === 'imagensParalelas') {
     const cols = section.fotos.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'
     return (
-      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
+      <figure className="my-12">
         <div className={`grid grid-cols-1 ${cols} gap-2`}>
           {section.fotos.map((foto, i) => (
-            <div key={i} className="aspect-[4/3] overflow-hidden">
+            <div key={i} className="overflow-hidden">
               <img
                 src={foto.src}
                 alt={section.legenda || ''}
-                className="w-full h-full object-cover"
+                className="w-full max-h-[270px] object-cover"
               />
             </div>
           ))}
@@ -71,18 +71,16 @@ function Section({ section }) {
   }
 
   if (section.type === 'imagensVerticaisParalelas') {
-    const cols = section.fotos.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'
     return (
-      <figure className="my-12 -mx-4 md:-mx-16 lg:-mx-10">
-        <div className={`grid grid-cols-1 ${cols} gap-2`}>
+      <figure className="my-12">
+        <div className="flex flex-col sm:flex-row justify-center items-start gap-2">
           {section.fotos.map((foto, i) => (
-            <div key={i} className="aspect-[3/4] overflow-hidden">
-              <img
-                src={foto.src}
-                alt={section.legenda || ''}
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <img
+              key={i}
+              src={foto.src}
+              alt={section.legenda || ''}
+              className="max-h-[360px] w-auto mx-auto sm:mx-0"
+            />
           ))}
         </div>
         {section.legenda && (
@@ -113,7 +111,7 @@ function Section({ section }) {
         {section.titulo && (
           <p className="section-label mb-3">{section.titulo}</p>
         )}
-        <div className="aspect-video bg-terra-900">
+        <div className="max-w-[80%] mx-auto aspect-video bg-terra-900">
           <iframe
             src={`https://www.youtube.com/embed/${section.youtubeId}`}
             title={section.titulo}
