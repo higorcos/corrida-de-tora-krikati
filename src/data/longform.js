@@ -76,7 +76,7 @@ export const longform = [
       }, {
         type: 'citacao',
         content: `A gente se identifica como corrida, então Corrida de Tora é a nossa origem, a nossa identidade que os mais velhos deixaram para nós`,
-        autor: 'Ancião Milton Carvalho Bandeira Krikati',
+        autor: ', afirma.',
       },
       {
         type: 'imagemVertical',
@@ -212,7 +212,12 @@ export const longform = [
         content: `A diferença pode parecer simples, mas revela muito sobre a maneira como a comunidade compreende a própria tradição. Enquanto para um visitante a Corrida de Tora pode parecer uma celebração cultural, para os Krikati ela está relacionada a conhecimentos herdados dos ancestrais, responsabilidades coletivas e compromissos assumidos com a preservação da cultura e do respeito às tradições.`,
       }, {
         type: 'texto',
-        content: `Durante boa parte da vida, Milton participou ativamente das corridas. Hoje, aos 54 anos, já não corre como fazia quando era mais jovem, ainda assim, continua presente em cada ritual. “Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida.”`,
+        content: `Durante boa parte da vida, Milton participou ativamente das corridas. Hoje, aos 54 anos, já não corre como fazia quando era mais jovem, ainda assim, continua presente em cada ritual.`,
+      },
+      {
+        type: 'citacao',
+        content: `Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida.`,
+        autor: ',  relata.',
       },
       {
         type: 'imagemVertical',

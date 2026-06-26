@@ -93,14 +93,15 @@ function Section({ section }) {
   }
 
   if (section.type === 'citacao') {
+    const continuacao = section.continuacao || section.autor
     return (
       <blockquote className="my-12 border-l-4 border-urucum pl-6">
-        <p className="font-serif text-xl md:text-2xl italic text-terra-100 leading-relaxed mb-3">
+        <p className="font-serif text-xl md:text-2xl italic text-terra-100 leading-relaxed">
           "{section.content}"
+          {continuacao && (
+            <span className="not-italic">{continuacao}</span>
+          )}
         </p>
-        {section.autor && (
-          <cite className="text-terra-400 text-sm font-sans not-italic">— {section.autor}</cite>
-        )}
       </blockquote>
     )
   }
