@@ -3,6 +3,7 @@ import { videos } from '../data/videos'
 import { longform } from '../data/longform'
 import { galeria } from '../data/galeria'
 import VideoCard from '../components/VideoCard'
+import VideoEmbed from '../components/VideoEmbed'
 import CronicaCard from '../components/CronicaCard'
 import treeImg from '../../img/img07.jpeg'
 import { useState } from 'react'
@@ -17,15 +18,7 @@ function VideoModal({ video, onClose }) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        <div className="relative aspect-video bg-terra-900">
-          <iframe
-            src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1`}
-            title={video.titulo}
-            className="w-full h-full"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
+        <VideoEmbed youtubeId={video.youtubeId} titulo={video.titulo} autoplay />
         <p className="mt-3 font-display text-terra-50 text-xl">{video.titulo}</p>
       </div>
     </div>

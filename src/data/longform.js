@@ -17,20 +17,71 @@ import cap1_img7 from '../../img/cap1/7.png'
 import cap1_img8 from '../../img/cap1/8.png'
 import cap1_img9 from '../../img/cap1/9.png'
 import cap1_img10 from '../../img/cap1/10.png'
-import cap1_img10_GIF from '../../img/cap1/10_g.gif' 
+import cap1_img10_GIF from '../../img/cap1/10_g.gif'
 import cap1_img10_A from '../../img/cap1/10_A.jpeg'
 import cap1_img11 from '../../img/cap1/11.png'
 import cap1_img12 from '../../img/cap1/12.png'
 import cap1_img13 from '../../img/cap1/13.png'
-/*
+
+import cap2_img1 from '../../img/cap2/1.png'
+import cap2_img2 from '../../img/cap2/2.png'
+import cap2_img3 from '../../img/cap2/3.png'
+//import cap2_img4 from '../../img/cap2/4.png'
+import cap2_img5 from '../../img/cap2/5.png'
+//import cap2_img6 from '../../img/cap2/6.png'
+import cap2_img7 from '../../img/cap2/7.png'
+import cap2_img8 from '../../img/cap2/8.png'
+import cap2_img9 from '../../img/cap2/9.png'
 
 
 
+import cap3_img1 from '../../img/cap3/1.png'
+import cap3_img2 from '../../img/cap3/2.png'
+import cap3_img3 from '../../img/cap3/3.png'
+import cap3_img4 from '../../img/cap3/4.png'
+import cap3_img5 from '../../img/cap3/5.png'
+import cap3_img6 from '../../img/cap3/6.png'
+import cap3_img7 from '../../img/cap3/7.png'
+import cap3_img8 from '../../img/cap3/8.png'
+import cap3_img9_ from '../../img/cap3/9_1.png'
+import cap3_img9 from '../../img/cap3/9.png'
+import cap3_img10 from '../../img/cap3/10.png'
+import cap3_img12 from '../../img/cap3/12.png'
+import cap3_img13 from '../../img/cap3/13.png'
+import cap3_img14 from '../../img/cap3/14.png'
+import cap3_img15 from '../../img/cap3/15.png'
+import cap3_img16 from '../../img/cap3/16.png'
+import cap3_img19 from '../../img/cap3/19.png'
+import cap3_img21 from '../../img/cap3/21.png'
+import cap3_img22 from '../../img/cap3/22.png'
+import cap3_img23 from '../../img/cap3/23.png'
+import cap3_img25 from '../../img/cap3/25.png'
+import cap3_img26 from '../../img/cap3/26.png'
+import cap3_img27 from '../../img/cap3/27.png'
+import cap3_img28 from '../../img/cap3/28.png'
+import cap3_img29 from '../../img/cap3/29.png'
+import cap3_img30 from '../../img/cap3/30.png'
+import cap3_img31 from '../../img/cap3/31.png'
+import cap3_img32 from '../../img/cap3/32.png'
+import cap3_img33 from '../../img/cap3/33.png'
 
 
 
+import cap4_img1 from '../../img/cap4/1.png'
+import cap4_img2 from '../../img/cap4/2.png'
+import cap4_img3 from '../../img/cap4/3.png'
+import cap4_img5 from '../../img/cap4/5.png'
+import cap4_img6 from '../../img/cap4/6.png'
+import cap4_img7 from '../../img/cap4/7.png'
+import cap4_img8 from '../../img/cap4/8.png'
+import cap4_img9 from '../../img/cap4/9.png'
+import cap4_img10 from '../../img/cap4/10.png'
+import cap4_img11 from '../../img/cap4/11.png'
+import cap4_img12 from '../../img/cap4/12.png'
+import cap4_img13 from '../../img/cap4/13.png'
 
-*/
+
+
 
 
 
@@ -55,7 +106,7 @@ export const longform = [
       {
         type: 'imagensParalelas',
         fotos: [
-          { src: cap1_img1},
+          { src: cap1_img1 },
           { src: cap1_img2 },
         ],
         legenda: 'cap1_img1 e cap1_img2',
@@ -134,12 +185,12 @@ export const longform = [
       },
 
       {
-      type: 'imagensVerticaisParalelas',
-      fotos: [
-      { src: cap1_img7 },
-      { src: cap1_img8 },
-      ],
-      legenda: 'cap1_img7 e cap1_img8',
+        type: 'imagensVerticaisParalelas',
+        fotos: [
+          { src: cap1_img7 },
+          { src: cap1_img8 },
+        ],
+        legenda: 'cap1_img7 e cap1_img8',
       },
       {
         type: 'texto',
@@ -171,21 +222,21 @@ export const longform = [
         content: `O ritual começa ainda na infância. Heidy Krikati lembra que teve seus primeiros contatos com a tradição quando tinha cerca de quatro anos de idade. “A gente corria com um tronco menor, e foi um momento muito importante para mim, porque eu me sentia conectada com os meus ancestrais”, relembra.`,
       },
       /////video aqui
-     /* {
-        type: 'imagem',
-        src: cap1_img10_GIF,
-        legenda: 'cap1_img10_GIF',
-      },*/
+      {
+         type: 'video',
+         titulo: '',
+         youtubeId: 'k8gxV-USy2Q' 
+       },
 
       {
-  type: 'imagensVerticaisParalelas',
-  fotos: [
-    { src: cap1_img10 },
-    { src: cap1_img10_A },
-  ],
-  legenda: 'cap1_img10 e cap1_img10_A',
-},
-   
+        type: 'imagensVerticaisParalelas',
+        fotos: [
+          { src: cap1_img10 },
+          { src: cap1_img10_A },
+        ],
+        legenda: 'cap1_img10 e cap1_img10_A',
+      },
+
 
       {
         type: 'texto',
@@ -332,34 +383,112 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'texto',
         content: `Enquanto isso, os homens assumem outra função importante: construir a estrutura da sepultura. Madeira e palha são utilizadas para cobrir o caixão, evitando o contato direto da terra com ele, pois, segundo a tradição, a morte não representa o fim da existência, mas uma passagem para outra forma de vida. O falecido deve descansar em paz em sua nova jornada, e a terra sobre o caixão poderia sufocá-lo.`,
-      }, {
+      },
+
+      {
+        type: 'imagem',
+        src: cap2_img1,
+        legenda: 'cap2_img1',
+      },
+       
+      {
         type: 'texto',
         content: `A família inicia então um período de luto que se estende por vários meses. Durante esse tempo, os parentes não participam de atividades sociais da aldeia, evitam determinadas práticas culturais e deixam de utilizar pinturas corporais. No dia seguinte ao sepultamento acontece um dos momentos mais significativos desse processo: a comunidade percorre os lugares que faziam parte da rotina da pessoa falecida para receber o último clamor, o derradeiro choro.`,
       }, {
         type: 'texto',
         content: `Enquanto caminham, os participantes choram e pedem que a alma siga seu caminho, sem permanecer ligada aos espaços onde viveu. Quando necessário, esse ritual também é realizado em outras aldeias frequentadas pelo falecido. O luto, entretanto, não se encerra nesse momento, ele continua presente na vida da família e da comunidade até a realização da Corrida de Tora. Somente após meses de preparação acontece esse ritual, que marca oficialmente o encerramento da despedida.`,
-      }, {
+      }, 
+      
+      {
+        type: 'imagem',
+        src: cap2_img2,
+        legenda: 'cap2_img2',
+      },
+
+      
+      
+      {
         type: 'texto',
         content: `Embora a corrida de encerramento de luto seja uma das praticadas pelos Krikati, ela não é a única realizada pela comunidade. Ao longo do ano, diferentes corridas acontecem, associadas a rituais específicos e à preparação dos corredores. Entre elas estão a Corrida de Varinha, também chamada de Corrida de Flecha, e a Corrida de Buriti, realizadas com toras menores e utilizadas principalmente como forma de treinamento e preparação física dos participantes para a corrida principal, com a tora grande. Essas corridas ajudam os jovens a desenvolverem resistência, técnica e familiaridade com os rituais, antes de participarem dos eventos maiores.`,
       }, {
         type: 'texto',
-        content: `Já as corridas realizadas com a tora grande da árvore conhecida como “barriguda”, são as que representam maior importância ritual. Entre os Krikati, se destacam três principais modalidades. A Corrida de Encerramento de Luto (tem data fixa? Informar algo do tipo: que ocorre no mês tal), marca o fim do período de despedida de uma pessoa falecida. A Corrida de Passagem, ligada aos rituais conhecidos como Esteira e Severo, simbolizam etapas importantes da formação social dos jovens e são marcadas por um período de isolamento para eles adquirirem maturidade. E a Corrida de Casamento é realizada em celebrações que marcam a união de casais que residem na comunidade. `,
+        content: `Já as corridas realizadas com a tora grande da árvore conhecida como “barriguda”, são as que representam maior importância ritual. Entre os Krikati, se destacam três principais modalidades. A Corrida de Encerramento de Luto (tem data fixa? Informar algo do tipo: que ocorre no mês tal), marca o fim do período de despedida de uma pessoa falecida. A Corrida de Passagem, ligada aos rituais conhecidos como Esteira e Severo, simbolizam etapas importantes da formação social dos jovens e são marcadas por um período de isolamento para eles adquirirem maturidade. E a Corrida de Casamento é realizada em celebrações que marcam a união de casais que residem na comunidade.`,
       }, {
         type: 'texto',
         content: `Embora possuam significados diferentes, todas compartilham elementos comuns relacionados à coletividade, à árvore de Barriguda, também conhecida como Sumaúma, (Ceiba pentandra), à ancestralidade e à reafirmação da identidade cultural Krikati. Normalmente, três ou quatro meses após o falecimento, a comunidade inicia os preparativos para a cerimônia final. Segundo os moradores da Aldeia São José, antigamente esse período podia ser ainda mais longo.`,
-      }, {
+      }, 
+      
+       {
+        type: 'imagem',
+        src: cap2_img3,
+        legenda: 'cap2_img3',
+      },
+
+      
+      {
         type: 'texto',
         content: `A primeira etapa do processo consiste na escolha da árvore que dará origem à tora principal. Os homens da família entram na mata em busca da Barriguda. Ela precisa atender a critérios específicos relacionados ao tamanho e à qualidade da madeira. Por isso, eles fotografam aquelas consideradas mais adequadas e a imagem é apresentada à família da pessoa homenageada. Somente após a aprovação dos familiares é definida a data do corte.`,
-      }, {
+      },   
+
+
+     {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: 'd_5shO4EhDA' 
+       },
+      
+
+      
+      
+      {
         type: 'texto',
         content: `Na véspera da derrubada, ocorre uma grande cantoria no pátio da aldeia. Homens, mulheres, crianças e anciãos permanecem reunidos durante a noite. Os cantos anunciam oficialmente o início dos preparativos para o encerramento do luto e a derrubada da árvore. Ao amanhecer, a família segue para a mata, e, pouco antes do corte, novos cânticos são entoados, gerando comoção. A árvore escolhida representa muito mais do que matéria-prima, no encerramento de luto, ela simboliza o espírito da pessoa que será homenageada durante a corrida.`,
-      }, {
+      }, 
+      
+      
+       {
+        type: 'imagensVerticaisParalelas',  
+        fotos: [{ src: cap2_img5}, { src: cap2_img7}],
+        legenda: 'cap2_img5 e cap2_img7',
+      },
+
+     {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: 'NPq6gaqRv90' 
+       },
+      
+
+      {
         type: 'texto',
         content: `Depois de derrubada, a barriguda é dividida em quatro toras. Duas serão utilizadas pelos homens e outras duas pelas mulheres, sendo que cada partido tradicional da aldeia receberá sua própria tora. No passado, toda a preparação acontecia dentro da mata, mas, atualmente, as toras são levadas para a aldeia São José, onde recebem os acabamentos necessários antes de serem transportadas para a Aldeia Campo Alegre, comunidade vizinha que funciona como ponto de partida da corrida principal.`,
-      }, {
+      }, 
+      
+      {
+        type: 'imagem',
+        src: cap2_img8,
+        legenda: 'cap2_img8',
+      },
+
+         {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: '_9ENXrWQ-rk' 
+       },
+      
+      
+      {
         type: 'texto',
         content: `A tora utilizada nos rituais principais possui características próprias. Ela é confeccionada a partir do tronco da barriguda e mantém seu formato cilíndrico, com comprimento e peso variáveis de acordo com a finalidade do ritual e com a pessoa homenageada. Após ser cortada, a madeira é modelada e preparada para o transporte, tendo que ser um pouco oca para facilitar a pegada e não escorregar durante a corrida. `,
-      }, {
+      }, 
+      
+       {
+        type: 'imagem',
+        src: cap2_img9,
+        legenda: 'cap2_img9',
+      },
+      
+      {
         type: 'texto',
         content: `O peso das toras exige que vários corredores se revezem durante o percurso no dia da corrida, carregando-a sobre os ombros. A troca delas entre os participantes ocorre de forma contínua, sem que a tora toque o chão durante todo o trajeto. Para os Krikati, a tora não é apenas um objeto carregado durante o percurso. É justamente por esse motivo que sua preparação ocorre dentro de um contexto ritual. `,
       }, {
@@ -401,6 +530,20 @@ legenda: 'Retratos da aldeia',
        src: img06,
        legenda: 'Árvore sagrada que sustenta a vida.',
      },
+
+
+      {
+      type: 'imagensParalelas',
+      fotos: [
+        { src: img01 },
+        { src: img04 },
+        { src: img08 },
+      ],
+      legenda: 'Legenda compartilhada pelas três fotos',
+      }
+      2 ou 3 imagens verticais paralelas:
+
+
      */
     ]
   },
@@ -417,81 +560,256 @@ legenda: 'Retratos da aldeia',
       {
         type: 'texto',
         content: `O sol ainda não havia surgido completamente quando a Aldeia São José começou a despertar, era 24 de maio de 2026. Aos poucos, homens, mulheres, crianças, anciãos e visitantes passaram a ocupar o pátio central da aldeia. Alguns conversavam em pequenos grupos, enquanto outros se preparavam para mais uma etapa do ritual de encerramento de luto. Havia um sentimento coletivo de expectativa, já que não se tratava apenas de mais um dia na rotina da comunidade. Era o período de realização da Corrida de Tora, um dos mais importantes rituais do povo Krikati.`,
-      }, {
+      },
+
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img1},{src: cap3_img2}],
+          legenda: 'cap3_img1 e cap3_img2',
+        },
+      
+      {
         type: 'texto',
         content: `Durante os dias 22, 23 e 24 de maio, a aldeia viveu intensamente um conjunto de atividades que reuniram espiritualidade, memória, convivência coletiva, cantorias, danças, corridas e homenagens. Nesses momentos, os homens permaneceram sem camisa, enquanto as mulheres utilizavam vestimentas tradicionais, algumas delas permanecendo sem cobertura na parte superior do corpo, conforme os costumes da comunidade.`,
-      }, {
+      }, 
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img3}],
+          legenda: 'cap3_img3',
+        },
+      
+      
+      {
         type: 'texto',
         content: `A corrida não acontece de forma isolada, a prática faz parte de um processo iniciado meses antes. Quando uma família perde um de seus integrantes e entra em período de luto, a realização de todas as etapas da cerimônia marca justamente a etapa final dessa despedida, mas toda a aldeia participa do processo. Embora a Corrida de Tora de encerramento de luto seja o momento mais conhecido do ritual, ela não acontece sozinha.`,
       }, {
         type: 'texto',
         content: `Nos dias que antecedem a corrida principal, a comunidade realiza outras corridas que fazem parte da preparação dos participantes. Entre elas estão a Corrida da Varinha, também conhecida como Corrida da Flecha, realizada no pátio da aldeia com bastões, e a Corrida de Buriti, em que os corredores carregam toras menores utilizadas para treinamento. Essas atividades ajudam a desenvolver resistência física, técnica e preparo coletivo para a corrida principal.`,
-      }, {
+      }, 
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img4}],
+          legenda: 'cap3_img4',
+        },
+      
+      {
         type: 'texto',
         content: `A primeira data é marcada pela organização das atividades. Ao longo do dia acontecem os treinamentos, a busca das toras de Buriti na mata, que são utilizadas na preparação dos corredores, a Corrida da Varinha e os preparativos para a programação noturna. São momentos de mobilização coletiva, em que diferentes grupos da comunidade assumem responsabilidades específicas para garantir a realização do ritual.`,
-      }, {
+      },
+      
+      {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img5}],
+          legenda: 'cap3_img5',
+        },
+      
+      {
         type: 'texto',
         content: `Quando a noite chega, a comunidade se reúne ao redor da fogueira instalada no centro do pátio. Cantos e danças tradicionais seguem durante a noite, em um momento de forte significado cultural e espiritual. Os participantes formam grande círculo ao redor da fogueira, acompanhando os cantores e repetindo movimentos transmitidos pelos mais velhos ao longo das gerações.`,
-      }, {
+      }, 
+      
+      {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img6}, {src: cap3_img7}],
+          legenda: 'cap3_img6 e cap3_img7',
+        },
+
+
+        {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: '7jBrAzn2VhY' 
+       },  
+
+
+      {
         type: 'texto',
         content: `Segundo o ancião Milton Carvalho, os cantos representam muito mais do que uma manifestação cultural. “Em todos os momentos, cantoria, corrida, pintura e luto estão todos ligados ao ritual. A gente se pinta de acordo com o momento. Quando o ritual termina, a gente não pinta mais”, esclarece.`,
-      }, {
+      }, 
+      
+              
+      
+      {
         type: 'texto',
         content: `A fala evidencia que a corrida não pode ser compreendida separadamente dos demais elementos culturais que compõem o ritual. Pintura corporal, cantoria, dança e corrida fazem parte de um mesmo sistema de significados.`,
       }, {
         type: 'texto',
         content: `As pinturas também estão relacionadas ao período de luto vivido pelas famílias. Segundo Letícia Awju Torino Krikati, corredora da Corrida de Tora, liderança indígena e vereadora do município de Montes Altos (MA), existem restrições que permanecem até a realização do ritual de encerramento. “Quando estamos de luto não participamos das atividades nem nos pintamos”, explica.`,
-      }, {
+      },
+      
+     
+      
+      {
         type: 'texto',
         content: `No segundo dia ocorre a corrida feminina, na qual as mulheres realizam o percurso entre a Aldeia Campo Alegre e a Aldeia São José carregando as toras em sistema de revezamento, percorrendo quase oito quilômetros. Durante todo o trajeto, as participantes demonstraram resistência física e espírito coletivo, passando a tora de ombro a ombro até a chegada à aldeia.`,
-      }, {
+      }, 
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img8}],
+          legenda: 'cap3_img8',
+        },
+      
+      
+      {
         type: 'texto',
         content: `Após a chegada das corredoras, os homens iniciaram os preparativos para a corrida do dia seguinte, repetindo as mesmas etapas vivenciadas pelas mulheres. Uma delas é a solicitação dos alimentos nas casas da aldeia. Cada residência prepara quatro pratos de comida: dois destinados ao Partido de Baixo e dois ao Partido de Cima, sendo um para as crianças e outro para os adultos. Quando a corrida é masculina, as mulheres ficam responsáveis pela preparação dos alimentos e, no caso da feminina, os homens assumem essa função.`,
-      }, {
+      }, 
+      
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img9_},{src: cap3_img9}, {src: cap3_img10}],
+          legenda: 'cap3_img9_1 cap3_img9  cap3_img10',
+        },
+      
+      
+      
+      {
         type: 'texto',
         content: `Ao longo do dia também acontecem os treinamentos com as toras de buriti, realizados desde a área da mata onde elas foram cortadas e preparadas até a aldeia. A Corrida da Varinha volta a ocorrer durante a tarde, percorrendo o entorno do pátio central e, à noite, a programação é novamente encerrada com cantorias e danças tradicionais.`,
-      }, {
+      }, 
+      
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img12},{src: cap3_img13}, {src: cap3_img14}],
+          legenda: 'cap3_img11 cap3_img12  cap3_img13',
+        },
+      
+      
+      {
         type: 'texto',
         content: `O terceiro e último dia concentrava o momento da corrida dos homens, sendo que ainda antes das seis horas da manhã, a movimentação já começava. Os participantes foram para o pátio e subiram novamente no caminhão, assim como havia acontecido no dia anterior durante a corrida feminina, com destino à Aldeia Campo Alegre. O percurso até a Aldeia São José possui aproximadamente 7,6 quilômetros, a mesma distância percorrida pelas corredoras.`,
-      }, {
+      }, 
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img15},{src: cap3_img16}],
+          legenda: 'cap3_img15 e  cap3_img16',
+        },
+      
+      {
         type: 'texto',
         content: `Então seguiram pela rodovia MA 280 até chegarem ao local de partida. As toras cortadas e preparadas dias antes a partir da Barriguda escolhida para representar a pessoa homenageada foram posicionadas sobre palhas no chão assim que chegaram, uma ao lado da outra, de acordo com seus respectivos partidos. O cenário era marcado por um forte simbolismo, as toras permaneciam no centro da área onde ocorreria a largada, aguardando o início da corrida.`,
-      }, {
+      }, 
+          {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: 'jXd4cpkmCDI' 
+       }, 
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img19}],
+          legenda: 'cap3_img19',
+        },
+      
+      
+      {
         type: 'texto',
         content: `Antes da partida, a MA-280 foi parcialmente interditada para impedir a passagem de veículos e garantir a segurança dos participantes. As lideranças se reuniram ao redor das toras e novos cantos e danças foram realizados, de despedida. Alguns corredores faziam os últimos ajustes nos adereços corporais e realizavam alongamentos, outros organizavam os equipamentos fotográficos que registrariam o ritual.`,
-      }, {
+      },
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img21} , {src: cap3_img22}],
+          legenda: 'cap3_img21',
+        },
+          {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: 'rUKIFcRLkno' 
+       },
+      
+      
+      {
         type: 'texto',
         content: `O ambiente era marcado por concentração, respeito e expectativa. Pouco depois, a corrida teve início. Os homens partiram carregando as toras sobre os ombros, e cada partido possuía sua própria tora, identificada pelas pinturas horizontais e verticais. A cada trecho percorrido, um novo corredor assumia o peso da tora. O revezamento acontecia de forma contínua, passando a tora de ombro a ombro entre os corredores descansados, sem que o movimento fosse interrompido.`,
-      }, {
+      }, 
+           
+      {
+        type: 'imagensVerticaisParalelas',
+        fotos: [{src: cap3_img23}],
+        legenda: 'cap3_img23',
+      },
+      {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: 'dNIcULN5DDw' 
+       },
+      
+      {
         type: 'texto',
         content: `A participação na corrida está diretamente ligada ao pertencimento aos partidos tradicionais da comunidade e à capacidade física dos corredores. “Se você for corredor, se você consegue carregar a tora, você pode. Você pega a tora do seu partido, com a pintura dele”, explica Letícia.`,
       }, {
         type: 'texto',
         content: `Durante o percurso, as mulheres acompanhavam a corrida servindo água em garrafas Pet aos participantes, da mesma forma que os homens haviam feito durante o ritual feminino. O caminhão utilizado no transporte dos corredores seguia logo atrás, servindo de apoio para aqueles que não conseguiam continuar correndo. Familiares, visitantes e moradores da aldeia acompanhavam o trajeto em motocicletas e veículos de apoio.`,
-      }, {
+      }, 
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img25} , {src: cap3_img26}],
+          legenda: 'cap3_img25 e img26',
+        },
+      
+      
+      
+      {
         type: 'texto',
         content: `Para quem observa a corrida pela primeira vez, a resistência física dos participantes chama atenção. O peso da tora, o calor intenso, os ombros inchados e a velocidade exigida durante o percurso tornam a atividade extremamente desgastante. Em diversos momentos é possível perceber o esforço físico dos corredores, mas também a determinação em manter a tora em movimento até a chegada.`,
-      }, {
+      }, 
+      
+      {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img27} , {src: cap3_img28}],
+          legenda: 'cap3_img27 e img28',
+        },
+      
+      {
         type: 'texto',
         content: `Ainda assim, a competição não é o elemento central da corrida.`,
       }, {
         type: 'citacao',
         content: `A corrida de tora revela a construção de uma vivência que é o mesmo que construir uma pessoa étnica`,
-        autor: ` Fábio Cardias`,
+        autor: `, explica o professor Fábio Cardias.`,
       }, {
         type: 'texto',
         content: `A afirmação ajuda a compreender que o ritual vai além do esforço físico, a corrida funciona como um processo de formação cultural, fortalecendo a identidade coletiva e reafirmando valores compartilhados pela comunidade.`,
       }, {
         type: 'citacao',
         content: `Não é uma competição. Ali para nós, é uma corrida para mostrar resistência dos partidos e prestar essa última homenagem`,
-        autor: 'Letícia'
-      }, {
+        autor: ', complementa Letícia.'
+      }, 
+        {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img29} , {src: cap3_img30}],
+          legenda: 'cap3_img27 e img28',
+        },
+      {
         type: 'texto',
         content: `Por volta das oito horas da manhã, os corredores chegaram à Aldeia São José. As toras foram posicionadas no centro do pátio e a comunidade se reuniu para registrar o momento com fotografias. A corrida havia terminado. Para os Krikati, aquele instante representa muito mais do que a conclusão de um percurso. Com a chegada das toras e a realização dos últimos rituais, se encerra oficialmente o período de luto iniciado meses antes.`,
-      }, {
+      }, 
+      
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img31}],
+          legenda: 'cap3_img31',
+        },
+      
+      {
         type: 'texto',
         content: `Posteriormente à corrida de encerramento, ocorre o chamado pagamento do luto. Nesse momento, objetos domésticos, como panelas e outros utensílios, são entregues à família da pessoa homenageada como presente. O gesto simboliza a liberação definitiva do período de luto, permitindo que os familiares retomem plenamente suas atividades cotidianas dentro da aldeia. Em alguns casos, parentes também cortam os cabelos como forma de promessa, respeito ou homenagem à pessoa falecida.`,
-      }, {
+      }, 
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img32}],
+          legenda: 'cap3_img32',
+        },
+        
+        
+        {
         type: 'texto',
         content: `Durante esses três dias de ritual, é possível compreender por que a Corrida de Tora ocupa posição tão importante na vida da comunidade. Ela não se resume ao momento em que os corredores carregam as toras, envolve preparação, cantoria, alimentação coletiva, ensinamentos dos mais velhos, participação das crianças, atuação das mulheres e mobilização de toda a aldeia.`,
       }, {
@@ -501,24 +819,15 @@ legenda: 'Retratos da aldeia',
         type: 'texto',
         content: `A continuidade dessa tradição depende de um desafio permanente: garantir que os conhecimentos transmitidos pelos mais velhos sejam aprendidos pelas novas gerações. Em um contexto marcado pela presença crescente das tecnologias, da escolarização e das transformações sociais, os Krikati buscam formas de preservar seus saberes sem deixar de dialogar com o mundo contemporâneo.`,
       },
-      /*
-        {
-          type: 'texto',
-          content: ``,
+
+
+
+       {
+          type: 'imagensVerticaisParalelas',
+          fotos: [{src: cap3_img33}],
+          legenda: 'cap3_img33',
         },
-        
-          {
-          type: 'citacao',
-          content: '',
-          autor: '',
-        },
-       
-        {
-          type: 'imagem',
-          src: img06,
-          legenda: 'Árvore sagrada que sustenta a vida.',
-        },
-        */
+     
     ],
   },
   {
@@ -536,33 +845,63 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'texto',
         content: `A Corrida de Tora atravessou gerações, resistiu às transformações provocadas pelo contato com a sociedade não indígena, às mudanças nos modos de vida e aos obstáculos enfrentados pelos povos originários ao longo do tempo. No entanto, os desafios que cercam a tradição atualmente são diferentes daqueles vividos pelos antepassados. Hoje, a preservação da corrida acontece em um cenário marcado pela convivência entre dois universos: os mundos indígenas e os não indígenas.`,
-      }, {
+      }, 
+     
+      {
+       type: 'imagem',
+       src: cap4_img1,
+       legenda: 'cap4_img1',
+     },
+
+      {
         type: 'texto',
         content: `A preocupação com a continuidade dos conhecimentos tradicionais está entre os principais temas discutidos pelas lideranças da Aldeia São José. Milton Carvalho acompanha de perto esse processo e observa com atenção as transformações vividas pelas novas gerações.`,
       }, {
         type: 'texto',
         content: `Segundo ele, os Krikati vivem atualmente entre duas realidades que se encontram diariamente. “Hoje nós estamos em um tempo moderno. Estamos com dois mundos: o mundo ocidental e o mundo indígena”, comenta. Se por um lado os jovens têm cada vez mais acesso à escola, à tecnologia, aos meios de comunicação e às redes sociais, por outro cresce a preocupação com a continuidade dos conhecimentos tradicionais que sustentam a identidade cultural do povo.`,
-      }, {
+      }, 
+      
+      
+      {
         type: 'texto',
         content: `Milton demonstra preocupação, especialmente, com a transmissão dos cantos, dos rituais e da língua tradicional.`,
       }, {
         type: 'citacao',
         content: `Hoje nós estamos em um tempo moderno. Estamos com dois mundos: o mundo ocidental e o mundo indígena`,
-        autor: 'Milton Carvalho',
-      }, {
+        autor: ', comenta.',
+      }, 
+      
+      {
         type: 'texto',
         content: `Se por um lado os jovens têm cada vez mais acesso à escola, à tecnologia, aos meios de comunicação e às redes sociais, por outro cresce a preocupação com a continuidade dos conhecimentos tradicionais que sustentam a identidade cultural do povo.`,
-      }, {
+      }, 
+      
+      {
+        type: 'imagem',
+        src: cap4_img2,
+        legenda: 'cap4_img2',
+      },
+      
+      {
         type: 'texto',
         content: `Milton demonstra preocupação, especialmente, com a transmissão dos cantos, dos rituais e da língua tradicional.`,
       }, {
         type: 'citacao',
         content: `Cada vez mais a nossa cultura está diminuindo, porque os jovens de hoje alguns não cantam, e alguns cantam. Então isso me preocupa como coordenador da cultura`,
-        autor: 'Milton Carvalho',
+        autor: ', relata.',
       }, {
         type: 'texto',
         content: `Sua fala não representa uma visão pessimista sobre o futuro, mas um alerta sobre a necessidade de fortalecer os mecanismos de transmissão cultural no contexto da aldeia. Entre os Krikati, o conhecimento não é aprendido apenas em salas de aula ou por meio de livros, ele é transmitido principalmente pela convivência diária. As crianças e jovens aprendem observando os mais velhos, participando dos rituais, ouvindo os cantos e acompanhando as atividades coletivas da comunidade. Quando esse processo enfraquece, parte da memória coletiva corre o risco de desaparecer.`,
-      }, {
+      }, 
+      
+       {
+       type: 'imagem',
+       src: cap4_img3,
+       legenda: 'cap4_img3',
+     },
+      
+      
+      {
         type: 'texto',
         content: `Essa preocupação também aparece quando se observa a trajetória de alguns rituais tradicionais. Nem todas as práticas conseguiram atravessar o tempo da mesma forma. Milton relatou que determinadas cerimônias deixaram de ser realizadas ao longo dos anos, um dos exemplos é o ritual conhecido como Cyyjexut.`,
       }, {
@@ -589,7 +928,25 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'texto',
         content: `A preocupação com o futuro da tradição não está relacionada apenas à formação de corredores, existe também a necessidade de formar pessoas capazes de desempenhar outras funções fundamentais dentro dos rituais. Segundo Milton, nem todos podem cortar, preparar ou conduzir uma tora, existem conhecimentos específicos que são transmitidos ao longo da vida. “A preparação não é qualquer um que faz, é só a pessoa que sabe”, afirma.`,
-      }, {
+      },
+       {
+         type: 'videoShot',
+         titulo: '',
+         youtubeId: '0LbFoLh-p34' 
+       },
+       
+      {
+       type: 'imagem',
+       src: cap4_img5,
+       legenda: 'cap4_img5',
+       },
+    
+      
+      
+       
+      
+      
+      {
         type: 'texto',
         content: `A escolha da árvore, a preparação da madeira, a organização das cantorias, a condução dos rituais e o conhecimento das pinturas corporais dependem de pessoas que acumularam experiências durante décadas. Por isso, a continuidade da Corrida de Tora depende não apenas da existência de jovens dispostos a correr, mas também de pessoas capazes de ensinar, orientar e preservar esses saberes.`,
       }, {
@@ -601,11 +958,30 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'citacao',
         content: `Porque gravo, registro, grava alguns cânticos que eu não sei e estuda e aprende.`,
-        autor: 'Milton Carvalho',
-      }, {
+        autor: ', ressalta.',
+      }, 
+      
+       {
+       type: 'imagem',
+       src: cap4_img6,
+       legenda: 'cap4_img6',
+       },
+    
+      
+      
+      {
         type: 'texto',
         content: `A possibilidade de registrar cantos, pinturas corporais, corridas e rituais cria formas inéditas de preservação da memória cultural. Aquilo que antes dependia exclusivamente da transmissão oral agora também pode ser documentado por meio de fotografias, vídeos e gravações. “Ela contribui a divulgar a cultura, mas também pode fazer os jovens perder o interesse pelas tradições e eu não quero que isso aconteça”, argumenta a corredora Heidy Krikati.`,
-      }, {
+      }, 
+      
+      {
+       type: 'imagensVerticaisParalelas',
+       fotos:[{src: cap4_img7} , {src:cap4_img8},],
+       legenda: 'cap4_img7 e cap4_im8',
+       },
+    
+      
+      {
         type: 'texto',
         content: `Os registros audiovisuais permitem que determinados conhecimentos sejam revisitados posteriormente, auxiliando jovens e adultos no aprendizado de cantos, pinturas e procedimentos ritualísticos. Além disso, contribuem para a construção de um acervo cultural que pode servir de referência para as futuras gerações.`,
       }, {
@@ -614,19 +990,45 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'texto',
         content: `Para o pesquisador, uma das transformações mais importantes dos últimos anos está relacionada ao protagonismo dos próprios indígenas na produção de conteúdo digital. “É pelo celular e o acesso às mídias indígenas, Instagram, Facebook, entre outras comunicações, que observamos um fenômeno interessante: essas práticas passam a ser mais conhecidas, seja a corrida de tora ou os jogos indígenas em geral”, argumenta.`,
-      }, {
+      }, 
+      
+      {
+       type: 'imagem',
+       src: cap4_img9,
+       legenda: 'cap4_img9',
+       },
+      
+      
+      
+      {
         type: 'texto',
         content: `Durante décadas, grande parte das narrativas sobre os povos indígenas foi produzida por pessoas externas às comunidades e, atualmente, essa realidade começa a mudar. Jovens indígenas utilizam redes sociais, plataformas digitais, fotografia e audiovisual para registrar seus próprios rituais e compartilharem suas experiências.`,
       }, {
         type: 'texto',
         content: `Nesse contexto, a Corrida de Tora passa a ocupar também um novo espaço. Além de ritual tradicional, ela se transforma em instrumento de afirmação cultural, pois fotografias e vídeos circulam pela internet e ajudam a mostrar que a tradição continua viva.`,
-      }, {
+      }, 
+      
+       {
+       type: 'imagem',
+       src: cap4_img10,
+       legenda: 'cap4_img10',
+       },
+      
+      {
         type: 'texto',
         content: `Esses registros não divulgam apenas uma corrida, eles apresentam uma forma específica de compreender o corpo, a coletividade, a memória e a relação com a natureza. Ao mesmo tempo em que fortalecem a visibilidade da cultura Krikati, contribuem também para combater estereótipos frequentemente associados aos povos indígenas.`,
       }, {
         type: 'texto',
         content: `A circulação dessas imagens possibilita que pessoas de diferentes regiões do país conheçam aspectos da cultura Krikati que antes permaneciam restritos às aldeias. Sessa forma, a tecnologia pode contribuir para ampliar o reconhecimento e a valorização das tradições indígenas, desde que utilizada de forma consciente e alinhada aos interesses da própria comunidade.`,
-      }, {
+      }, 
+      
+       {
+       type: 'imagensVerticaisParalelas',
+       fotos:[{src:cap4_img2},{src:cap4_img11}],
+       legenda: 'cap4_img2(repetindo) e cap4_img11',
+       },
+      
+      {
         type: 'texto',
         content: `O ancião Milton reconhece os desafios existentes, mas também demonstra esperança. Ele sabe que alguns conhecimentos estão desaparecendo e que a realidade atual é diferente daquela vivida por seus antepassados. Ainda assim, observa que muitas crianças continuam participando dos rituais, que os jovens seguem aprendendo os cantos e que a comunidade permanece mobilizada em torno de suas tradições.`,
       }, {
@@ -638,35 +1040,35 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'texto',
         content: `Mais do que uma atividade física ou uma celebração ritual, a Corrida de Tora continua funcionando como um espaço de transmissão de conhecimentos, de fortalecimento das relações comunitárias e de reafirmação da identidade Krikati. A cada nova edição, crianças observam os mais velhos, jovens assumem novas responsabilidades e os conhecimentos ancestrais continuam sendo compartilhados.`,
-      }, {
+      }, 
+      
+       {
+       type: 'imagem',
+       src: cap4_img12,
+       legenda: 'cap4_im12',
+       },
+      
+      
+      
+      {
         type: 'texto',
         content: `Entre os conhecimentos ancestrais e as novas tecnologias, entre a oralidade e os registros digitais, entre o mundo indígena e o mundo não indígena, a Corrida de Tora segue avançando, uma tradição que continua correndo através do tempo, carregando consigo os ensinamentos dos antepassados e os desafios das futuras gerações.`,
-      }, {
+      }, 
+      {
+       type: 'imagem',
+       src: cap4_img13,
+       legenda: 'cap4_img13',
+       },
+      
+      
+      {
         type: 'citacao',
         content: `Que a nossa tradição seja lembrada no futuro como uma herança muito importante para o povo Krikati`,
-        autor: `Heidy Krikati, corredora`
+        autor: `, destaca a corredora Heidy Krikati.`
       }, {
         type: 'texto',
         content: `Mais do que preservar uma prática cultural, os Krikati estimulam uma forma própria de compreender o mundo: a Corrida permanece viva porque continua sendo ensinada, praticada e valorizada pela comunidade. Enquanto houver pessoas dispostas a carregar a tora, entoar os cantos e transmitir os conhecimentos ancestrais, a tradição continuará atravessando gerações, reafirmando a identidade do povo Krikati e mantendo viva uma das mais importantes expressões culturais dos povos Krikati.`,
       },
-      /*
-     {
-       type: 'texto',
-       content: ``,
-     },
-     
-       {
-       type: 'citacao',
-       content: '',
-       autor: '',
-     },
-    
-     {
-       type: 'imagem',
-       src: img06,
-       legenda: 'Árvore sagrada que sustenta a vida.',
-     },
-     */
     ]
   },
 ]

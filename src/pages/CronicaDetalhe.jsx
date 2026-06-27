@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { longform } from '../data/longform'
+import VideoEmbed from '../components/VideoEmbed'
 
 function Section({ section }) {
   if (section.type === 'texto') {
@@ -120,15 +121,18 @@ function Section({ section }) {
         {section.titulo && (
           <p className="section-label mb-3">{section.titulo}</p>
         )}
-        <div className="max-w-[80%] mx-auto aspect-video bg-terra-900">
-          <iframe
-            src={`https://www.youtube.com/embed/${section.youtubeId}`}
-            title={section.titulo}
-            className="w-full h-full"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
+        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} className="max-w-[80%] mx-auto" />
+      </div>
+    )
+  }
+
+  if (section.type === 'videoShot') {
+    return (
+      <div className="my-12">
+        {section.titulo && (
+          <p className="section-label mb-3 text-center">{section.titulo}</p>
+        )}
+        <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} shot />
       </div>
     )
   }

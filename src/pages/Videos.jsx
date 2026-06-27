@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { videos } from '../data/videos'
 import VideoCard from '../components/VideoCard'
+import VideoEmbed from '../components/VideoEmbed'
 
 function VideoModal({ video, onClose }) {
   return (
@@ -12,15 +13,7 @@ function VideoModal({ video, onClose }) {
           </svg>
           <span className="text-xs uppercase tracking-widest font-sans">Fechar</span>
         </button>
-        <div className="relative aspect-video bg-terra-900 shadow-2xl">
-          <iframe
-            src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1`}
-            title={video.titulo}
-            className="w-full h-full"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
+        <VideoEmbed youtubeId={video.youtubeId} titulo={video.titulo} autoplay className="shadow-2xl" />
         <div className="mt-4 border-l-4 border-urucum pl-4">
           <h2 className="font-display text-xl text-terra-50 mb-1">{video.titulo}</h2>
           <p className="text-terra-300 font-serif text-sm">{video.descricao}</p>
