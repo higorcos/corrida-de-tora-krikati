@@ -168,22 +168,22 @@ function Section({ section }) {
 
     const imageContent = () => {
       if (image.type === 'imagem') return (
-        <img src={image.src} alt={image.legenda || ''} className={`${imgH} w-auto block`} loading="lazy" decoding="async" />
+        <img src={image.src} alt={image.legenda || ''} className={`${imgH} w-auto max-w-full block`} loading="lazy" decoding="async" />
       )
       if (image.type === 'imagemVertical') return (
-        <img src={image.src} alt={image.legenda || ''} className={`${imgH} w-auto block`} loading="lazy" decoding="async" />
+        <img src={image.src} alt={image.legenda || ''} className={`${imgH} w-auto max-w-full block`} loading="lazy" decoding="async" />
       )
       if (image.type === 'imagensVerticaisParalelas') return (
-        <div className="flex flex-row items-start gap-2">
+        <div className="flex flex-row items-start gap-2 max-w-full">
           {image.fotos.map((foto, i) => (
-            <img key={i} src={foto.src} alt={image.legenda || ''} className={`${imgH} ${imgW} w-auto`} loading="lazy" decoding="async" />
+            <img key={i} src={foto.src} alt={image.legenda || ''} className={`${imgH} ${imgW} w-auto max-w-full`} loading="lazy" decoding="async" />
           ))}
         </div>
       )
       if (image.type === 'imagensParalelas') {
         const cols = nFotos === 3 ? 'grid-cols-3' : 'grid-cols-2'
         return (
-          <div className={`grid ${cols} gap-2`}>
+          <div className={`grid ${cols} gap-2 max-w-full`}>
             {image.fotos.map((foto, i) => (
               <img key={i} src={foto.src} alt={image.legenda || ''} className="w-full max-h-[200px] object-cover" loading="lazy" decoding="async" />
             ))}
@@ -195,8 +195,8 @@ function Section({ section }) {
 
     return (
       <figure className="my-12 -mx-6">
-        <div className="flex flex-col sm:flex-row gap-6 items-center justify-center flex-wrap">
-          <div className="flex-none">{imageContent()}</div>
+        <div className="flex flex-col sm:flex-row gap-6 items-center justify-center flex-wrap px-6 sm:px-0">
+          <div className="flex-none max-w-full">{imageContent()}</div>
           <div className="flex-none">
             <VideoEmbed youtubeId={shot.youtubeId} titulo={shot.titulo} shot />
           </div>

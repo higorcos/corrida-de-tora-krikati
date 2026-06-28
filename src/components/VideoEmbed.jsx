@@ -29,7 +29,7 @@ export default function VideoEmbed({ youtubeId, titulo, autoplay = false, shot =
     ? `relative bg-terra-900 overflow-hidden select-none rounded-xl ${className}`
     : `relative aspect-video bg-terra-900 overflow-hidden select-none ${className}`
 
-  const shotStyle = shot ? { height: '420px', aspectRatio: '9/16', margin: '0 auto' } : undefined
+  const shotStyle = shot ? { height: 'clamp(280px, 55vw, 420px)', aspectRatio: '9/16', margin: '0 auto' } : undefined
 
   return (
     <div className={containerClass} style={shotStyle}>
