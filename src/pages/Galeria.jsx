@@ -37,7 +37,7 @@ export default function Galeria() {
               >
                 <img
                   src={img.src}
-                  alt={img.alt}
+                  alt={img.legenda}
                   className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                   decoding="async"

@@ -5,7 +5,7 @@ import { galeria } from '../data/galeria'
 import VideoCard from '../components/VideoCard'
 import VideoEmbed from '../components/VideoEmbed'
 import CronicaCard from '../components/CronicaCard'
-import treeImg from '../../img/img07.jpeg'
+import treeImg from '../../img/galeria/img07.jpeg'
 import { useState } from 'react'
 
 function VideoModal({ video, onClose }) {
