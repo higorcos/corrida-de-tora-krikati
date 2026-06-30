@@ -109,7 +109,7 @@ export const longform = [
           { src: cap1_img1 },
           { src: cap1_img2 },
         ],
-        legenda: 'cap1_img1 e cap1_img2',
+        legenda: 'Pátio central e entrada principal da aldeia São José (Foto: Paulo Ferraz).',
       },
 
       {
@@ -132,7 +132,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img3,
-        legenda: 'cap1_img3',
+        legenda: 'Ancião Milton Carvalho Bandeira Krikati observando a organização final da corrida antes da largada (Foto: Paulo Ferraz).',
       },
 
       {
@@ -145,7 +145,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img4,
-        legenda: 'cap1_img4',
+        legenda: 'Milton Carvalho sendo gravado enquanto explica sobre o ritual (Foto: Paulo Ferraz).',
       },
       {
         type: 'texto',
@@ -160,7 +160,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img5,
-        legenda: 'cap1_img5',
+        legenda: 'Corredores reunidos participando da cantoria e da dança no pátio da aldeia (Foto: Paulo Ferraz).',
       },
       {
         type: 'texto',
@@ -172,7 +172,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img6,
-        legenda: 'cap1_img6',
+        legenda: 'Toras de buriti usadas nos treinamentos, posicionadas no pátio (Foto: Paulo Ferraz).',
       },
       {
         type: 'texto',
@@ -190,7 +190,7 @@ export const longform = [
           { src: cap1_img7 },
           { src: cap1_img8 },
         ],
-        legenda: 'cap1_img7 e cap1_img8',
+        legenda: 'Pinturas corporais verticais e horizontais que dividem os partidos (Foto: Paulo Ferraz).',
       },
       {
         type: 'texto',
@@ -200,7 +200,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img9,
-        legenda: 'cap1_img9',
+        legenda: 'Família indígena sendo fotografada com as toras utilizadas na corrida de encerramento do luto (Foto: Paulo Ferraz).',
       },
       {
         type: 'texto',
@@ -234,7 +234,7 @@ export const longform = [
           { src: cap1_img10 },
           { src: cap1_img10_A },
         ],
-        legenda: 'cap1_img10 e cap1_img10_A',
+        legenda: 'Crianças participando dos rituais da aldeia. (Foto e vídeo: Paulo Ferraz)',
       },
 
 
@@ -252,7 +252,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img11,
-        legenda: 'cap1_img11',
+        legenda: 'Mulheres observando os homens consumirem as bebidas entregue por elas durante a dança e a cantoria no pátio (Foto: Paulo Ferraz).',
       },
 
       {
@@ -273,7 +273,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img12,
-        legenda: 'cap1_img12',
+        legenda: 'Milton conversando com os indígenas durante ritual. (Foto: Paulo Ferraz)',
       },
       {
         type: 'texto',
@@ -291,7 +291,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img13,
-        legenda: 'cap1_img13',
+        legenda: 'Milton em conversa durante cantoria e dança (Foto: Paulo Ferraz).',
       },
       {
         type: 'texto',
@@ -388,7 +388,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagem',
         src: cap2_img1,
-        legenda: 'cap2_img1',
+        legenda: 'Indígenas Krikati reunidos no centro do pátio (Foto: Paulo Ferraz).',
       },
        
       {
@@ -402,7 +402,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagem',
         src: cap2_img2,
-        legenda: 'cap2_img2',
+        legenda: 'Caminho que dá acesso às demais casas da Aldeia São José (Foto: Paulo Ferraz).',
       },
 
       
@@ -421,7 +421,7 @@ legenda: 'Retratos da aldeia',
        {
         type: 'imagem',
         src: cap2_img3,
-        legenda: 'cap2_img3',
+        legenda: 'Árvore de barriguda ao nascer do sol, na aldeia São José. (Foto: Paulo Ferraz).',
       },
 
       
@@ -448,8 +448,8 @@ legenda: 'Retratos da aldeia',
       
        {
         type: 'imagensVerticaisParalelas',  
-        fotos: [{ src: cap2_img5}, { src: cap2_img7}],
-        legenda: 'cap2_img5 e cap2_img7',
+        fotos: [ { src: cap2_img7}],
+        legenda: 'Mulheres cantando cânticos sagrados antes da derrubada da barriguda. (Foto e vídeo: Paulo Ferraz)',
       },
 
      {
@@ -467,7 +467,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagem',
         src: cap2_img8,
-        legenda: 'cap2_img8',
+        legenda: 'Árvore de barriguda sendo derrubada, preparada e dividida em quatro partes na mata. (Foto: Arquivo pessoal)',
       },
 
          {
@@ -485,7 +485,7 @@ legenda: 'Retratos da aldeia',
        {
         type: 'imagem',
         src: cap2_img9,
-        legenda: 'cap2_img9',
+        legenda: 'Revezamento da tora de buriti durante a corrida de treinamento para a Corrida de Tora. (Foto: Paulo Ferraz)',
       },
       
       {
@@ -565,7 +565,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img1},{src: cap3_img2}],
-          legenda: 'cap3_img1 e cap3_img2',
+          legenda: 'Corredor se preparando para a corrida de encerramento de luto ao amanhecer. (Foto: Paulo Ferraz)',
         },
       
       {
@@ -576,7 +576,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img3}],
-          legenda: 'cap3_img3',
+          legenda: 'Corredores começando se reunir no centro da Aldeia São José antes de embarcarem no caminhão. (Foto: Paulo Ferraz)',
         },
       
       
@@ -590,7 +590,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img4}],
-          legenda: 'cap3_img4',
+          legenda: 'Corredores durante o treinamento com a tora de buriti, realizado um dia antes da corrida principal com a tora de barriguda. (Foto: Paulo Ferraz)',
         },
       
       {
@@ -601,7 +601,7 @@ legenda: 'Retratos da aldeia',
       {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img5}],
-          legenda: 'cap3_img5',
+          legenda: 'Homens seguindo para a mata, onde as toras de buriti serão preparadas para o treinamento da corrida. (Foto: Paulo Ferraz)',
         },
       
       {
@@ -612,7 +612,7 @@ legenda: 'Retratos da aldeia',
       {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img6}, {src: cap3_img7}],
-          legenda: 'cap3_img6 e cap3_img7',
+          legenda: 'Indígenas reunidos ao redor da fogueira durante a noite de cantos e danças tradicionais no pátio da aldeia. (Foto e vídeo: Paulo Ferraz)',
         },
 
 
@@ -648,7 +648,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img8}],
-          legenda: 'cap3_img8',
+          legenda: 'Corredoras se preparando para a largada da Corrida de Tora com a tora de barriguda. (Foto: Paulo Ferraz)',
         },
       
       
@@ -660,8 +660,8 @@ legenda: 'Retratos da aldeia',
       
        {
           type: 'imagensVerticaisParalelas',
-          fotos: [{src: cap3_img9_},{src: cap3_img9}, {src: cap3_img10}],
-          legenda: 'cap3_img9_1 cap3_img9  cap3_img10',
+          fotos: [{src: cap3_img9}, {src: cap3_img9_}, {src: cap3_img10}],
+          legenda: 'Mulheres preparando os quatro pratos de comida destinados ao Partido de Baixo e ao Partido de Cima, e em seguida realizando a entrega aos corredores de seus respectivos partidos (Foto: Paulo Ferraz).',
         },
       
       
@@ -675,7 +675,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img12},{src: cap3_img13}, {src: cap3_img14}],
-          legenda: 'cap3_img11 cap3_img12  cap3_img13',
+          legenda: 'Tora de buriti sendo preparada e carregada até o pátio da Aldeia São José durante o treinamento para a Corrida de Tora principal. (Foto: Paulo Ferraz)',
         },
       
       
@@ -687,7 +687,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img15},{src: cap3_img16}],
-          legenda: 'cap3_img15 e  cap3_img16',
+          legenda: 'Corredores subindo no caminhão com destino à Aldeia Campo Alegre, onde será dada a largada da Corrida de Tora, em um percurso de aproximadamente 7,6 quilômetros. (Foto: Paulo Ferraz)',
         },
       
       {
@@ -703,7 +703,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img19}],
-          legenda: 'cap3_img19',
+          legenda: 'Indígenas seguem pela MA-280 em direção ao local de partida, onde as toras são posicionadas para o início da Corrida de Tora. (Foto: Paulo Ferraz)',
         },
       
       
@@ -715,7 +715,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img21} , {src: cap3_img22}],
-          legenda: 'cap3_img21',
+          legenda: 'Indígenas fazendo os últimos ajustes, cantando e interditando parcialmente a via (Foto e vídeo: Paulo Ferraz).',
         },
           {
          type: 'videoShot',
@@ -732,7 +732,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagensVerticaisParalelas',
         fotos: [{src: cap3_img23}],
-        legenda: 'cap3_img23',
+        legenda: 'Concentração antes da largada e a corrida sendo realizada (Foto e vídeo: Paulo Ferraz).',
       },
       {
          type: 'videoShot',
@@ -751,7 +751,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img25} , {src: cap3_img26}],
-          legenda: 'cap3_img25 e img26',
+          legenda: 'Corredores sobre os transportes de apoio atrás dos outros indígenas que ainda estão a frente correndo (Foto: Paulo Ferraz).',
         },
       
       
@@ -764,7 +764,7 @@ legenda: 'Retratos da aldeia',
       {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img27} , {src: cap3_img28}],
-          legenda: 'cap3_img27 e img28',
+          legenda: 'Corredores cansados no caminhão de volta para a aldeia, após realizarem sua parte na corrida (Foto: Paulo Ferraz).',
         },
       
       {
@@ -785,7 +785,7 @@ legenda: 'Retratos da aldeia',
         {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img29} , {src: cap3_img30}],
-          legenda: 'cap3_img27 e img28',
+          legenda: 'A tora de barriguda sendo passada para outro corredor durante a corrida. (Foto: Paulo Ferraz)',
         },
       {
         type: 'texto',
@@ -795,7 +795,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img31}],
-          legenda: 'cap3_img31',
+          legenda: 'Chegada dos corredores com as toras na aldeia São José (Foto: Paulo Ferraz).',
         },
       
       {
@@ -805,7 +805,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img32}],
-          legenda: 'cap3_img32',
+          legenda: 'As toras posicionadas no centro da aldeia com os corredores em volta posando para foto (Foto: Paulo Ferraz).',
         },
         
         
@@ -825,7 +825,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img33}],
-          legenda: 'cap3_img33',
+          legenda: 'Corredor sendo fotografado com as toras do partido de baixo e do partido de cima (Foto: Paulo Ferraz).',
         },
      
     ],
@@ -850,7 +850,7 @@ legenda: 'Retratos da aldeia',
       {
        type: 'imagem',
        src: cap4_img1,
-       legenda: 'cap4_img1',
+       legenda: 'Crianças observando os cânticos e dança durante ritual a noite. (Foto: Paulo Ferraz)',
      },
 
       {
@@ -879,7 +879,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagem',
         src: cap4_img2,
-        legenda: 'cap4_img2',
+        legenda: 'Assessoria de comunicação da aldeia filmando e fotografando durante o ritual. (Foto: Paulo Ferraz)',
       },
       
       {
@@ -897,7 +897,7 @@ legenda: 'Retratos da aldeia',
        {
        type: 'imagem',
        src: cap4_img3,
-       legenda: 'cap4_img3',
+       legenda: 'Criança posando para foto próximo à fogueira. (Foto: Paulo Ferraz).',
      },
       
       
@@ -938,12 +938,9 @@ legenda: 'Retratos da aldeia',
       {
        type: 'imagem',
        src: cap4_img5,
-       legenda: 'cap4_img5',
+       legenda: 'Krikati cortando e preparando as toras de buriti na mata. (Foto e vídeo: Paulo Ferraz).',
        },
     
-      
-      
-       
       
       
       {
@@ -964,7 +961,7 @@ legenda: 'Retratos da aldeia',
        {
        type: 'imagem',
        src: cap4_img6,
-       legenda: 'cap4_img6',
+       legenda: 'Ancião Milton sendo gravado pela assessoria durante cantoria a noite no pátio da aldeia. (Foto: Paulo Ferraz).',
        },
     
       
@@ -977,7 +974,7 @@ legenda: 'Retratos da aldeia',
       {
        type: 'imagensVerticaisParalelas',
        fotos:[{src: cap4_img7} , {src:cap4_img8},],
-       legenda: 'cap4_img7 e cap4_im8',
+       legenda: 'Fotógrafa indígena durante a corrida de tora masculina. (Foto: Paulo Ferraz).',
        },
     
       
@@ -995,7 +992,7 @@ legenda: 'Retratos da aldeia',
       {
        type: 'imagem',
        src: cap4_img9,
-       legenda: 'cap4_img9',
+       legenda: 'Equipe de assessoria registrando os participantes após cantoria e as danças tradicionais. (Foto: Paulo Ferraz).',
        },
       
       
@@ -1011,7 +1008,7 @@ legenda: 'Retratos da aldeia',
        {
        type: 'imagem',
        src: cap4_img10,
-       legenda: 'cap4_img10',
+       legenda: 'Corredores gravando vídeo após cânticos e dança no pátio da aldeia. (Foto: Paulo Ferraz)',
        },
       
       {
@@ -1025,7 +1022,7 @@ legenda: 'Retratos da aldeia',
        {
        type: 'imagensVerticaisParalelas',
        fotos:[{src:cap4_img2},{src:cap4_img11}],
-       legenda: 'cap4_img2(repetindo) e cap4_img11',
+       legenda: 'Equipe de comunicação da aldeia registrando o ritual. (Foto: Paulo Ferraz).',
        },
       
       {
@@ -1045,7 +1042,7 @@ legenda: 'Retratos da aldeia',
        {
        type: 'imagem',
        src: cap4_img12,
-       legenda: 'cap4_im12',
+       legenda: 'Corredor com a tora de buriti durante a corrida de treinamento. (Foto: Paulo Ferraz).',
        },
       
       
@@ -1057,7 +1054,7 @@ legenda: 'Retratos da aldeia',
       {
        type: 'imagem',
        src: cap4_img13,
-       legenda: 'cap4_img13',
+       legenda: 'Cantor guiando os corredores durante os cânticos no pátio da Aldeia São José. (Foto: Paulo Ferraz).',
        },
       
       
