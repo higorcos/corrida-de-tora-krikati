@@ -449,7 +449,7 @@ legenda: 'Retratos da aldeia',
        {
         type: 'imagensVerticaisParalelas',  
         fotos: [ { src: cap2_img7}],
-        legenda: 'Mulheres cantando cânticos sagrados antes da derrubada da barriguda. (Foto e vídeo: Paulo Ferraz)',
+        legenda: 'Mulheres cantando cânticos sagrados antes da derrubada da barriguda. (Foto: Arquivo pessoal)',
       },
 
      {
