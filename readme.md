@@ -87,23 +87,6 @@ assets/images/
 └── video-thumbnail-placeholder.svg   # Thumb 640×360 — fundo genipapo + botão play
 ```
 
----
-
-## Requisitos
-
-### Responsividade
-- Mobile first
-- Adaptado para tablets e desktop
-
-### Acessibilidade
-- Contraste WCAG AA
-- `alt` em todas as imagens
-- Navegação por teclado
-
-### Extras
-- Animações suaves (fade, slide)
-- Scroll suave
-- Parallax discreto no hero
 - Transições de página
 - SEO básico (meta tags)
 
