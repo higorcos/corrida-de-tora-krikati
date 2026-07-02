@@ -107,14 +107,3 @@ assets/images/
 - Transições de página
 - SEO básico (meta tags)
 
----
-
-## Prompt Original
-
-> Desenvolva um site estático moderno em React para um projeto cultural sobre um grupo indígena.
->
-> Criar uma plataforma de conteúdo longform com vídeos, longform, fotografias e textos sobre a história, cultura e cotidiano de um povo indígena. Visual contemporâneo e elegante, inspirado na cultura indígena brasileira sem parecer estereotipado. Misturar tradição e tecnologia. Design editorial semelhante a grandes reportagens multimídia.
->
-> Paleta de cores: tons terrosos predominantes, vermelho indígena (urucum), cor inspirada no genipapo (roxo-azulado escuro), bege/areia/marrom claro para fundos.
->
-> Stack: React + Vite + React Router + CSS Modules ou Tailwind. Sem backend. Dados em arquivos locais (arrays JS ou JSON).
