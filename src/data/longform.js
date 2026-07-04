@@ -505,6 +505,15 @@ legenda: 'Retratos da aldeia',
         type: 'texto',
         content: `No Seveiro, os jovens escolhidos pela família ficam reclusos em uma “casinha de palha” cerca de quatros meses, sem ter contato com mais ninguém da aldeia. O da Esteira, ocupa a mesma quantidade de tempo, porém podem andar pela a aldeia, mas tem que ficar cobertos por mascaras feitas de palha de burti (Mauritia flexuosa).`
       },
+
+
+      {
+        type: 'videoShot',
+        titulo:"",
+        legenda: 'Indígenas cobrindo jovem com a esteira durante o ritual de passagem. (Vídeo: Arquivo pessoal)',
+        youtubeId: 'hdKlWSX3mck'
+      },
+
       
       {
         type: 'texto',
