@@ -88,6 +88,7 @@ import cap4_img13 from '../../img/cap4/13.png'
 
 export const longform = [
   {
+    
     id: 1,
     slug: 'capitulo-1',
     titulo: '“A Corrida de Tora é a identidade que os mais velhos deixaram para nós”',
