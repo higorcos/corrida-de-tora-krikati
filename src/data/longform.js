@@ -271,8 +271,8 @@ ocupando um espaço central na construção da identidade coletiva.`,
       },
       {
         type: 'citacao',
-        content: `Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida.`,
-        autor: ',  relata',
+        content: `Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida`,
+        autor: ', relata.',
       },
       {
         type: 'imagemVertical',
