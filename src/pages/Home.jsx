@@ -6,7 +6,7 @@ import VideoCard from '../components/VideoCard'
 import VideoEmbed from '../components/VideoEmbed'
 import CronicaCard from '../components/CronicaCard'
 import treeImg from '../../img/galeria/img07.jpeg'
-import autor from '../../img/autor.png'
+import autor from '../../img/autor1.png'
 import { useState } from 'react'
 
 function VideoModal({ video, onClose }) {
@@ -59,7 +59,7 @@ export default function Home() {
             União e resistência na tradição da Corrida de Tora dos povos indígenas Krikati no Maranhão
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/longform" className="btn-primary">Ler Longform</Link>
+            <Link to="/longform" className="btn-primary">Ler CAPÍTULOS</Link>
             <Link to="/galeria" className="btn-ghost">Ver Galeria</Link>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function Home() {
       <section className="py-20 bg-terra-700">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10">
-            <span className="section-label">LongForm</span>
+            <span className="section-label">Capítulos</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {longform.map(c => (
@@ -173,7 +173,7 @@ export default function Home() {
             />
           </div>
             <div className="flex-1">
-              <p className="font-serif text-terra-200 text-base leading-relaxed mb-4">
+              <p className="font-serif text-terra-300 text-sm leading-relaxed mb-4">
                 Sou Paulo Rayan Nascimento Ferraz, graduando em Jornalismo pela Universidade Federal do Maranhão (UFMA/CCIM) e apaixonado por culturas.
               </p>
               <p className="font-serif text-terra-300 text-sm leading-relaxed mb-4">

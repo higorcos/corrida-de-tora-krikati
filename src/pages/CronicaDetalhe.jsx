@@ -241,16 +241,12 @@ export default function CronicaDetalhe() {
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900 via-terra-900/40 to-transparent" />
         <div className="absolute inset-x-0 bottom-0 max-w-4xl mx-auto px-6 pb-12">
           <span className="bg-urucum text-white text-xs px-3 py-1 uppercase tracking-widest font-sans">
-            longform
+            Capítulo {cronica.id}
           </span>
           <h1 className="font-display text-3xl md:text-5xl text-terra-50 mt-4 mb-3 leading-tight">
             {cronica.titulo}
           </h1>
-          <div className="flex items-center gap-4 text-terra-300 text-sm font-sans">
-            <span>{cronica.autor}</span>
-            <span className="w-1 h-1 rounded-full bg-urucum" />
-            <span>{cronica.data}</span>
-          </div>
+        
         </div>
       </div>
 
