@@ -289,7 +289,11 @@ export default function CronicaDetalhe() {
               >
                 ← Voltar ao Capítulo 1
               </Link>
-            </div>
+            </div>    
+
+
+
+            
           </section>
         )
       })()}
