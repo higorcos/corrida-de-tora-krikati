@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 export default defineConfig({
-  base: '/p_project/',
+  base: '/corrida-de-tora-krikati/',
   plugins: [
     react(),
     /*
