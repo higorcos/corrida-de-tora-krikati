@@ -115,10 +115,16 @@ export const longform = [
 
       {
         type: 'texto',
-        content: `Como se confirma no e-book Cultura viva timbira: nossas corridas de tora elaborado por Maria Elisa Ladeira e Daniela Leme da Fonseca, a prática está presente há muitas gerações e aparece associada a diferentes rituais, momentos de celebração coletiva e processos de formação social nos contextos das comunidades indígenas.`,
+        content: `Como se confirma no e-book Cultura viva Timbira: nossas corridas de tora elaborado por Maria Elisa Ladeira e Daniela Leme da Fonseca, a prática está presente há muitas
+gerações e aparece associada a diferentes rituais, momentos de celebração coletiva e
+processos de formação social nos contextos das comunidades indígenas.`,
       }, {
         type: 'texto',
-        content: `Os pesquisadores destacam que a corrida não pode ser compreendida apenas como uma atividade física, ela está ligada à história dos povos Timbira, à organização dos grupos sociais e à preservação dos conhecimentos ancestrais. Entre os Krikati, essa relação continua evidente, a corrida permanece integrada aos rituais tradicionais e continua ocupando um espaço central na construção da identidade coletiva.`,
+        content: `As pesquisadoras destacam que a corrida não pode ser compreendida apenas como uma
+atividade física, ela está ligada à história dos povos Timbira, à organização dos grupos
+sociais e à preservação dos conhecimentos ancestrais. Entre os Krikati, essa relação
+continua evidente, a corrida permanece integrada aos rituais tradicionais e continua
+ocupando um espaço central na construção da identidade coletiva.`,
       }, {
         type: 'texto',
         content: `Ao contrário do que ocorre em muitas tradições, a história da Corrida de Tora foi preservada principalmente pela oralidade. São os que guardam as lembranças dos antepassados e compartilham esses conhecimentos com as novas gerações. Os ensinamentos são transmitidos durante os rituais, nas conversas cotidianas e na convivência entre jovens e os mais velhos.`,
@@ -151,10 +157,7 @@ export const longform = [
       {
         type: 'texto',
         content: `Segundo suas lembranças, as crianças eram inseridas muito cedo nesse universo. Os mais velhos preparavam pequenas toras para que aprendessem a correr e compreendessem, desde os seus primeiros anos de idade, o significado da tradição.`,
-      }, {
-        type: 'texto',
-        content: `“Os cortadores faziam toras pequenininhas para nós, crianças, corrermos, para aprendermos a pegar o jeito e o tamanho. Hoje não se faz mais isso, não corta mais para as crianças correrem, somente os homens, os mais velhos, podem correr agora. Isso foi uma modificação”, compara Milton.`,
-      }, {
+      },{
         type: 'texto',
         content: `A memória oral também revela que a corrida nunca foi entendida apenas como uma atividade física, sendo mais associada à formação das pessoas, ao fortalecimento dos vínculos comunitários e à transmissão dos valores culturais do povo Krikati.`,
       },
@@ -247,7 +250,7 @@ export const longform = [
         content: `Algumas mudanças ocorreram também na rotina da aldeia. O atual cacique, Maurício Copacy Krikati, observa que hoje os participantes precisam conciliar as atividades culturais com a escola, o trabalho e outros compromissos do cotidiano. Mesmo assim, ele acredita que a essência da Corrida de Tora permanece preservada.`,
       }, {
         type: 'texto',
-        content: `Apesar dos desafios contemporâneos, a Corrida de Tora continua resistindo, porque permanece viva na memória dos mais velhos e na prática cotidiana da comunidade, “Está no nosso sangue, está na nossa vida, esses rituais que nos mantêm, que nos informam, que nos identificam. Sem ritual somos nada, sem cantoria somos nada”, resume Milton.`,
+        content: `Apesar dos desafios contemporâneos, a Corrida de Tora continua resistindo, porque permanece viva na memória dos mais velhos e na prática cotidiana da comunidade. “Está no nosso sangue, está na nossa vida, esses rituais que nos mantêm, que nos informam, que nos identificam. Sem ritual somos nada, sem cantoria somos nada”, resume Milton.`,
       },
 
       {
@@ -413,7 +416,7 @@ legenda: 'Retratos da aldeia',
         content: `Embora a corrida de encerramento de luto seja uma das praticadas pelos Krikati, ela não é a única realizada pela comunidade. Ao longo do ano, diferentes corridas acontecem, associadas a rituais específicos e à preparação dos corredores. Entre elas estão a Corrida de Varinha, também chamada de Corrida de Flecha, e a Corrida de Buriti, realizadas com toras menores e utilizadas principalmente como forma de treinamento e preparação física dos participantes para a corrida principal, com a tora grande. Essas corridas ajudam os jovens a desenvolverem resistência, técnica e familiaridade com os rituais, antes de participarem dos eventos maiores.`,
       }, {
         type: 'texto',
-        content: `Já as corridas realizadas com a tora grande da árvore conhecida como “barriguda”, são as que representam maior importância ritual. Entre os Krikati, se destacam três principais modalidades. A Corrida de Encerramento de Luto (tem data fixa? Informar algo do tipo: que ocorre no mês tal), marca o fim do período de despedida de uma pessoa falecida. A Corrida de Passagem, ligada aos rituais conhecidos como Esteira e Severo, simbolizam etapas importantes da formação social dos jovens e são marcadas por um período de isolamento para eles adquirirem maturidade. E a Corrida de Casamento é realizada em celebrações que marcam a união de casais que residem na comunidade.`,
+        content: `Já as corridas realizadas com a tora grande da árvore conhecida como “barriguda”, são as que representam maior importância ritual. Entre os Krikati, se destacam três principais modalidades. A Corrida de Encerramento de Luto, marca o fim do período de despedida de uma pessoa falecida. A Corrida de Passagem, ligada aos rituais conhecidos como Esteira e Severo, simbolizam etapas importantes da formação social dos jovens e são marcadas por um período de isolamento para eles adquirirem maturidade. E a Corrida de Casamento é realizada em celebrações que marcam a união de casais que residem na comunidade.`,
       }, {
         type: 'texto',
         content: `Embora possuam significados diferentes, todas compartilham elementos comuns relacionados à coletividade, à árvore de Barriguda, também conhecida como Sumaúma, (Ceiba pentandra), à ancestralidade e à reafirmação da identidade cultural Krikati. Normalmente, três ou quatro meses após o falecimento, a comunidade inicia os preparativos para a cerimônia final. Segundo os moradores da Aldeia São José, antigamente esse período podia ser ainda mais longo.`,
@@ -496,8 +499,14 @@ legenda: 'Retratos da aldeia',
         content: `O peso das toras exige que vários corredores se revezem durante o percurso no dia da corrida, carregando-a sobre os ombros. A troca delas entre os participantes ocorre de forma contínua, sem que a tora toque o chão durante todo o trajeto. Para os Krikati, a tora não é apenas um objeto carregado durante o percurso. É justamente por esse motivo que sua preparação ocorre dentro de um contexto ritual. `,
       }, {
         type: 'texto',
-        content: `O tamanho da tora e a madeira também possui significados. Quando a pessoa homenageada foi um corredor ativo ou alguém fortemente envolvido com as atividades culturais da comunidade, costuma-se utilizar a tora maior, feita da Barriguda. Já as crianças normalmente não recebem esse tipo de homenagem.  A explicação está relacionada aos rituais de passagem do Seveiro e Esteira, esses rituais funcionam como momentos de aprendizagem e preparação da adolescência para a vida adulta dentro da comunidade Krikati.. No Seveiro, os jovens escolhidos pela família ficam recluso em uma “casinha de palha” cerca de quatros meses, sem ter contato com mais ninguém da aldeia, o de Esteira, é a mesma quantidade de tempo, porém podem andar pela a aldeia, mas tem que ficar cobertos por mascaras feitas de palha de burti (Mauritia flexuosa).`,
-      }, {
+        content: `O tamanho da tora e a madeira também possui significados. Quando a pessoa homenageada foi um corredor ativo ou alguém fortemente envolvido com as atividades culturais da comunidade, costuma-se utilizar a tora maior, feita da Barriguda. Já as crianças normalmente não recebem esse tipo de homenagem. A explicação está relacionada aos rituais de passagem do Seveiro e Esteira, esses rituais funcionam como momentos de aprendizagem e preparação da adolescência para a vida adulta dentro da comunidade Krikati.`,
+      }, 
+      {
+        type: 'texto',
+        content: `No Seveiro, os jovens escolhidos pela família ficam reclusos em uma “casinha de palha” cerca de quatros meses, sem ter contato com mais ninguém da aldeia. O da Esteira, ocupa a mesma quantidade de tempo, porém podem andar pela a aldeia, mas tem que ficar cobertos por mascaras feitas de palha de burti (Mauritia flexuosa).`
+      },
+      
+      {
         type: 'texto',
         content: `É a partir desses processos de passagens que os jovens passam a assumir novas responsabilidades dentro da aldeia e fortalecem sua identidade cultural. Por isso, a Corrida de Tora associada a esses rituais simboliza não apenas esforço físico, mas também crescimento, amadurecimento e pertencimento ao povo Krikati.`,
       }, {
@@ -909,8 +918,14 @@ legenda: 'Retratos da aldeia',
         content: `A permanência dessa tradição depende, em grande parte, da formação das novas gerações. Por isso, uma das questões mais importantes para os Krikati é a preparação dos futuros corredores. Segundo Milton, tornar-se corredor exige muito mais do que força física, trata-se de um processo de formação que começa ainda na infância e envolve disciplina, dedicação e respeito aos ensinamentos tradicionais.`,
       }, {
         type: 'texto',
-        content: `Durante a preparação, que começa a partir dos dez anos de idade, existem orientações específicas relacionadas à alimentação e ao comportamento. “Não pode comer osso, não pode dormir muito. Tem que acordar de madrugada para correr, não pode comer à noite, não pode beber e tem que estar praticando a corrida e não pode namorar”, descreve Milton.`,
-      }, {
+        content: `Durante a preparação, que começa a partir dos dez anos de idade, existem orientações específicas relacionadas à alimentação e ao comportamento.`,
+      }, 
+      {
+        type: 'citacao',
+        content: `Não pode comer osso, não pode dormir muito. Tem que acordar de madrugada para correr, não pode comer à noite, não pode beber e tem que estar praticando a corrida e não pode namorar`,
+        autor: ', descreve Milton.',
+      },
+      {
         type: 'texto',
         content: `Essas recomendações mostram que o corredor de tora não é formado apenas pelo treinamento corporal. O objetivo é preparar alguém capaz de representar seu partido, sua família e sua cultura durante os rituais da comunidade. A corrida, nesse contexto, funciona também como um processo educativo. Antes mesmo de participarem das corridas com as grandes toras de Barriguda, os jovens acompanham os treinamentos realizados com as toras menores de Buriti e da Corrida da Varinha. `,
       }, {
@@ -945,12 +960,12 @@ legenda: 'Retratos da aldeia',
         content: `O acesso aos celulares, à internet e às redes sociais transformou a rotina da comunidade Krikati, e essa mudança gera diferentes interpretações entre as lideranças. Para alguns, as novas tecnologias representam uma ameaça à preservação cultural, enquanto, para outros, constituem uma oportunidade de fortalecimento identitário. Milton acredita que as duas visões podem coexistir. “Ajuda e ao mesmo tempo atrapalha”, pontua.`,
       }, {
         type: 'texto',
-        content: `Segundo ele, os recursos tecnológicos oferecem ferramentas importantes para a preservação dos conhecimentos tradicionais.`,
-      }, {
+        content: `Segundo ele, os recursos tecnológicos oferecem ferramentas importantes para a preservação dos conhecimentos tradicionais. “Porque gravo, registro, grava alguns cânticos que eu não sei e estuda e aprende”, ressalta.`,
+      }, /*{
         type: 'citacao',
         content: `Porque gravo, registro, grava alguns cânticos que eu não sei e estuda e aprende.`,
         autor: ', ressalta',
-      }, 
+      }, */
       
        {
        type: 'imagem',
@@ -1010,7 +1025,7 @@ legenda: 'Retratos da aldeia',
         content: `Esses registros não divulgam apenas uma corrida, eles apresentam uma forma específica de compreender o corpo, a coletividade, a memória e a relação com a natureza. Ao mesmo tempo em que fortalecem a visibilidade da cultura Krikati, contribuem também para combater estereótipos frequentemente associados aos povos indígenas.`,
       }, {
         type: 'texto',
-        content: `A circulação dessas imagens possibilita que pessoas de diferentes regiões do país conheçam aspectos da cultura Krikati que antes permaneciam restritos às aldeias. Sessa forma, a tecnologia pode contribuir para ampliar o reconhecimento e a valorização das tradições indígenas, desde que utilizada de forma consciente e alinhada aos interesses da própria comunidade.`,
+        content: `A circulação dessas imagens possibilita que pessoas de diferentes regiões do país conheçam aspectos da cultura Krikati que antes permaneciam restritos às aldeias. Dessa forma, a tecnologia pode contribuir para ampliar o reconhecimento e a valorização das tradições indígenas, desde que utilizada de forma consciente e alinhada aos interesses da própria comunidade.`,
       }, 
       
        {
