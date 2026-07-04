@@ -115,13 +115,24 @@ export default function Home() {
           <div className="text-center mb-10">
             <span className="section-label">LongForm</span>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {longform.map(c => (
               <CronicaCard key={c.id} cronica={c} />
             ))}
           </div>
         </div>
       </section>
+
+      {/* FRASE */}
+      <section className="py-16 bg-urucum">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="font-serif text-lg md:text-xl text-white leading-relaxed italic">
+            "Está no nosso sangue, está na nossa vida, esses rituais que nos mantêm, que nos informam, que nos identificam, nós nos identificamos com os rituais, sem ritual somos nada, sem cantoria somos nada."
+          </p>
+        </div>
+      </section>
+
+     
 
       {/* GALERIA TEASER */}
       <section className="py-20 bg-terra-600">
@@ -148,6 +159,29 @@ export default function Home() {
         </div>
       </section>
 
+ {/* SOBRE O AUTOR */}
+      <section className="py-20 bg-terra-800">
+        <div className="max-w-3xl mx-auto px-6">
+          <span className="section-label block mb-8">Sobre o autor</span>
+          <div className="flex flex-col sm:flex-row gap-10 items-start">
+            {/* Foto — adicione o arquivo img/paulo.jpg para substituir o placeholder */}
+            <div className="w-36 h-36 rounded-full bg-terra-600 flex-shrink-0 overflow-hidden flex items-center justify-center self-center sm:self-start">
+              <span className="font-display text-3xl text-terra-400">PF</span>
+            </div>
+            <div className="flex-1">
+              <p className="font-serif text-terra-200 text-base leading-relaxed mb-4">
+                Sou Paulo Rayan Nascimento Ferraz, graduando em Jornalismo pela Universidade Federal do Maranhão (UFMA/CCIM) e apaixonado por culturas.
+              </p>
+              <p className="font-serif text-terra-300 text-sm leading-relaxed mb-4">
+                Durante minha trajetória acadêmica, desenvolvi reportagens e vivências culturais, o que ampliou meu interesse pelo tema.
+              </p>
+              <p className="font-serif text-terra-300 text-sm leading-relaxed">
+                Este Trabalho de Conclusão de Curso resulta em um longform sobre a Corrida de Tora do povo Krikati. Para sua produção, vivi uma imersão nos rituais tradicionais da Aldeia São José, experiência que conduziu a construção desta narrativa, combinando pesquisa detalhada, apuração jornalística e uma linguagem acessível ao longo dos capítulos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* VÍDEOS EM DESTAQUE */}
       {/*
       <section className="py-20 bg-terra-700">

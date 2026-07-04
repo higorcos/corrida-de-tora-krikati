@@ -278,6 +278,45 @@ export default function CronicaDetalhe() {
           </div>
         </div>
       </article>
+
+      {/* Próximos capítulos */}
+      {(() => {
+        const outros = longform.filter(c => c.slug !== cronica.slug)
+        if (!outros.length) return null
+        return (
+          <section className="py-14 bg-terra-800">
+            <div className="max-w-4xl mx-auto px-6">
+              <div className="flex items-center justify-between mb-8">
+                <span className="section-label">Próximo capítulo</span>
+                <Link to="/longform" className="text-terra-400 hover:text-terra-50 text-xs font-sans uppercase tracking-widest transition-colors">
+                  Ver tudo
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {outros.map(c => (
+                  <Link key={c.id} to={`/longform/${c.slug}`} className="group flex gap-4 bg-terra-700 hover:bg-terra-600 transition-colors overflow-hidden">
+                    <div className="w-28 flex-shrink-0 overflow-hidden">
+                      <img
+                        src={c.capa}
+                        alt={c.titulo}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="py-4 pr-4 flex flex-col justify-center min-w-0">
+                      <p className="text-terra-400 text-xs font-sans uppercase tracking-widest mb-1">{c.data}</p>
+                      <h3 className="font-display text-terra-50 text-sm leading-snug group-hover:text-urucum-light transition-colors line-clamp-3 mb-2">
+                        {c.titulo}
+                      </h3>
+                      <p className="text-terra-400 text-xs font-sans italic">{c.resumo}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )
+      })()}
     </>
   )
 }
