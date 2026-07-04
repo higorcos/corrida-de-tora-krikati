@@ -17,7 +17,7 @@ export default defineConfig({
     ViteImageOptimizer({
   jpeg: { quality: 65 }, // 65 é excelente para fotos de fundo e paisagens
   jpg:  { quality: 65 },
-  png:  { quality: 75 }, // PNGs geralmente guardam prints ou logos; evite baixar de 70/75 para não borrar textos
+  png:  { quality: 65 }, // PNGs geralmente guardam prints ou logos; evite baixar de 70/75 para não borrar textos
   webp: { quality: 65, method: 6 }, // WebP é muito eficiente, 65 mantém ótima fidelidade
 })
   ],
