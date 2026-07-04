@@ -7,6 +7,7 @@ export default function Cronicas() {
   return (
     <>
       {/* Header */}
+      <>
       <div className="page-hero">
         <div className="absolute inset-0 indigenous-pattern opacity-30" />
         <div className="max-w-6xl mx-auto px-6 relative">
@@ -28,7 +29,11 @@ export default function Cronicas() {
             </div>
           )}
         </div>
+        
       </section>
+      
+</>
+      
     </>
   )
 }

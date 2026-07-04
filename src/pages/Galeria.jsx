@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { galeria } from '../data/galeria'
 import Lightbox from '../components/Lightbox'
 import Videos from './Videos'
@@ -157,7 +158,21 @@ export default function Galeria() {
           onNext={next}
         />
       )}
-     <Videos />
+      <Videos />
+
+      {/* VOLTAR*/}
+           <section className="pb-10 ">
+            <div className="max-w-xl ">
+              <div className="w-12 h-px  mx-auto mb-1" />
+              
+              <Link
+                to={`/`}
+                className="inline-block bg-urucum hover:bg-urucum-dark text-white font-sans text-xs uppercase tracking-widest px-8 py-4 transition-colors"
+              >
+                ← Voltar
+              </Link>
+            </div>
+          </section>
     </>
   )
 }

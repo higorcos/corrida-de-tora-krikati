@@ -275,6 +275,25 @@ export default function CronicaDetalhe() {
         </div>
       </article>
 
+      {/* Último capítulo — botão para voltar ao início */}
+      {longform.filter(c => c.id > cronica.id).length === 0 && (() => {
+        const cap1 = longform.find(c => c.id === 1)
+        return (
+          <section className="pb-10 ">
+            <div className="max-w-xl ">
+              <div className="w-12 h-px  mx-auto mb-1" />
+              
+              <Link
+                to={`/longform/${cap1.slug}`}
+                className="inline-block bg-urucum hover:bg-urucum-dark text-white font-sans text-xs uppercase tracking-widest px-8 py-4 transition-colors"
+              >
+                ← Voltar ao Capítulo 1
+              </Link>
+            </div>
+          </section>
+        )
+      })()}
+
       {/* Próximos capítulos — só os posteriores ao atual */}
       {(() => {
         const naoLidos = longform.filter(c => c.id > cronica.id)
