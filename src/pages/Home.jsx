@@ -74,10 +74,10 @@ export default function Home() {
 
       {/* SOBRE */}
       <section className="py-20 bg-terra-600">
-        <div className="max-w-3xl mx-auto px-6 text-center">
+        <div className="max-w-3xl mx-auto px-6">
 
-          <h2 className="section-title mb-6">Passado, presente e futuro</h2>
-            <span className="section-label text-terra-200 mb-4">Paulo Ferraz</span>
+          <h2 className="section-title mb-6 text-center">Passado, presente e futuro</h2>
+            <span className="section-label text-terra-200 mb-4 text-center">Paulo Ferraz</span>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
 
