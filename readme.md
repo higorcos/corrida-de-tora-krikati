@@ -89,3 +89,4 @@ assets/images/
 
 - Transições de página
 - SEO básico (meta tags)
+  
