@@ -115,7 +115,7 @@ export const longform = [
 
       {
         type: 'texto',
-        content: `Como se confirma no e-book Cultura viva Timbira: nossas corridas de tora elaborado por Maria Elisa Ladeira e Daniela Leme da Fonseca, a prática está presente há muitas
+        content: `Como se confirma no e-book <i>Cultura viva Timbira: nossas corridas de tora</i> elaborado por Maria Elisa Ladeira e Daniela Leme da Fonseca, a prática está presente há muitas
 gerações e aparece associada a diferentes rituais, momentos de celebração coletiva e
 processos de formação social nos contextos das comunidades indígenas.`,
       }, {

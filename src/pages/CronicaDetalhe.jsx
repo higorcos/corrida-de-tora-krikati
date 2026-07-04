@@ -29,7 +29,7 @@ function Section({ section }) {
     return (
       <div className="prose-indigena">
         {section.content.split('\n\n').map((p, i) => (
-          <p key={i}>{p}</p>
+          <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
         ))}
       </div>
     )
