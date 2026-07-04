@@ -6,6 +6,7 @@ import VideoCard from '../components/VideoCard'
 import VideoEmbed from '../components/VideoEmbed'
 import CronicaCard from '../components/CronicaCard'
 import treeImg from '../../img/galeria/img07.jpeg'
+import autor from '../../img/autor.png'
 import { useState } from 'react'
 
 function VideoModal({ video, onClose }) {
@@ -164,10 +165,13 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-6">
           <span className="section-label block mb-8">Sobre o autor</span>
           <div className="flex flex-col sm:flex-row gap-10 items-start">
-            {/* Foto — adicione o arquivo img/paulo.jpg para substituir o placeholder */}
-            <div className="w-36 h-36 rounded-full bg-terra-600 flex-shrink-0 overflow-hidden flex items-center justify-center self-center sm:self-start">
-              <span className="font-display text-3xl text-terra-400">PF</span>
-            </div>
+            <div className="w-36 h-36 rounded-full bg-terra-600 flex-shrink-0 overflow-hidden self-center sm:self-start">
+            <img 
+              src={autor} 
+              alt="Paulo Rayan" 
+              className="w-full h-full object-cover" 
+            />
+          </div>
             <div className="flex-1">
               <p className="font-serif text-terra-200 text-base leading-relaxed mb-4">
                 Sou Paulo Rayan Nascimento Ferraz, graduando em Jornalismo pela Universidade Federal do Maranhão (UFMA/CCIM) e apaixonado por culturas.

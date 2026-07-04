@@ -255,7 +255,7 @@ export default function CronicaDetalhe() {
       </div>
 
       {/* Conteúdo longform */}
-      <article className="bg-terra-700 py-16">
+      <article className="bg-terra-700 pt-16 pb-5">
         <div className="max-w-4xl mx-auto px-6">
           {/* Resumo em destaque */}
           <p className="font-serif text-xl md:text-2xl text-terra-200 leading-relaxed border-l-4 border-urucum pl-6 mb-12 italic">
@@ -267,7 +267,7 @@ export default function CronicaDetalhe() {
             <Section key={i} section={section} />
           ))}
 
-          {/* Rodapé do artigo */}
+          {/* Rodapé do artigo 
           <div className="mt-16 pt-8 border-t border-terra-600">
             <Link to="/longform" className="flex items-center gap-2 text-terra-400 hover:text-urucum transition-colors text-sm font-sans uppercase tracking-widest">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -275,36 +275,47 @@ export default function CronicaDetalhe() {
               </svg>
               Todos os longform
             </Link>
-          </div>
+          </div>*/}
         </div>
       </article>
 
-      {/* Próximos capítulos */}
+      {/* Próximos capítulos — só os posteriores ao atual */}
       {(() => {
-        const outros = longform.filter(c => c.slug !== cronica.slug)
-        if (!outros.length) return null
+        const naoLidos = longform.filter(c => c.id > cronica.id)
+        if (!naoLidos.length) return null
         return (
-          <section className="py-14 bg-terra-800">
+          <section className="py-2 bg-terra-800">
             <div className="max-w-4xl mx-auto px-6">
               <div className="flex items-center justify-between mb-8">
-                <span className="section-label">Próximo capítulo</span>
+                <span className="section-label">
+                  {naoLidos.length === 1 ? 'Próximo capítulo' : 'Próximos capítulos'}
+                </span>
                 <Link to="/longform" className="text-terra-400 hover:text-terra-50 text-xs font-sans uppercase tracking-widest transition-colors">
                   Ver tudo
                 </Link>
               </div>
-              <div className="grid grid-cols-2 gap-4">
-                {outros.map(c => (
-                  <Link key={c.id} to={`/longform/${c.slug}`} className="group flex gap-4 bg-terra-700 hover:bg-terra-600 transition-colors overflow-hidden">
-                    <div className="w-28 flex-shrink-0 overflow-hidden">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {naoLidos.map(c => (
+                  <Link
+                    key={c.id}
+                    to={`/longform/${c.slug}`}
+                    className="group block bg-terra-700 hover:bg-terra-600 transition-colors overflow-hidden"
+                  >
+                    {/* Imagem com label */}
+                    <div className="relative aspect-[4/3] overflow-hidden">
                       <img
                         src={c.capa}
                         alt={c.titulo}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />
+                      <div className="absolute inset-0 bg-gradient-to-t from-terra-900/70 to-transparent" />
+                      <span className="absolute top-3 left-3 bg-urucum text-white text-xs px-2 py-0.5 uppercase tracking-widest font-sans">
+                        Capítulo {c.id}
+                      </span>
                     </div>
-                    <div className="py-4 pr-4 flex flex-col justify-center min-w-0">
-                      <p className="text-terra-400 text-xs font-sans uppercase tracking-widest mb-1">{c.data}</p>
+                    {/* Texto */}
+                    <div className="p-4">
                       <h3 className="font-display text-terra-50 text-sm leading-snug group-hover:text-urucum-light transition-colors line-clamp-3 mb-2">
                         {c.titulo}
                       </h3>
