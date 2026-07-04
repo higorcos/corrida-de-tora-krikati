@@ -1,11 +1,12 @@
 import img01 from '../../img/galeria/img01.jpeg'
 import img02 from '../../img/galeria/img02.jpeg'
 import img03 from '../../img/galeria/img03.jpeg'
-import img04 from '../../img/galeria/img04.jpeg'
 import img05 from '../../img/galeria/img05.jpeg'
 import img06 from '../../img/galeria/img06.jpeg'
-import img07 from '../../img/galeria/img07.jpeg'
 import img08 from '../../img/galeria/img08.jpeg'
+
+import img04 from '../../img/galeria/img02c.png'
+import img07 from '../../img/galeria/img04.webp'//cap3
 
 import cap1_img1 from '../../img/cap1/1.png'
 import cap1_img2 from '../../img/cap1/2.png'
@@ -252,7 +253,7 @@ export const longform = [
       {
         type: 'imagemVertical',
         src: cap1_img11,
-        legenda: 'Mulheres observando os homens consumirem as bebidas entregue por elas durante a dança e a cantoria no pátio (Foto: Paulo Ferraz).',
+        legenda: 'Mulheres observando os homens consumirem as bebidas entregues por elas durante a dança e a cantoria no pátio (Foto: Paulo Ferraz).',
       },
 
       {
@@ -268,7 +269,7 @@ export const longform = [
       {
         type: 'citacao',
         content: `Sempre na corrida gosto de me pintar, de participar das corridas. Agora eu não participo mais, mas participo orientando e ajudo a organizar a corrida.`,
-        autor: ',  relata.',
+        autor: ',  relata',
       },
       {
         type: 'imagemVertical',
@@ -339,7 +340,7 @@ legenda: 'Legenda única para as duas fotos',
 type: 'imagensParalelas',
 fotos: [
   { src: img01 },
-  { src: img04 },
+ 
   { src: img08 },
 ],
 legenda: 'Legenda compartilhada pelas três fotos',
@@ -402,7 +403,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagem',
         src: cap2_img2,
-        legenda: 'Caminho que dá acesso às demais casas da Aldeia São José (Foto: Paulo Ferraz).',
+        legenda: 'Caminho que dá acesso às demais casas da aldeia São José (Foto: Paulo Ferraz).',
       },
 
       
@@ -435,7 +436,7 @@ legenda: 'Retratos da aldeia',
          type: 'videoShot',
          titulo: '',
          youtubeId: '_Ow2XsT1TJ4' ,
-        legenda: 'Corredores seguem pela mata para buscar e preparar as toras de buriti utilizadas no treinamento. Em seguida, retornam correndo pelo mesmo caminho com as toras sobre os ombros. (Vídeo: Paulo Ferraz)',
+         legenda: 'Corredores seguem pela mata para buscar e preparar as toras de buriti utilizadas no treinamento. Em seguida, retornam correndo pelo mesmo caminho com as toras sobre os ombros. (Vídeo: Paulo Ferraz)',
 
        },
       
@@ -451,7 +452,7 @@ legenda: 'Retratos da aldeia',
        {
         type: 'imagensVerticaisParalelas',  
         fotos: [ { src: cap2_img7}],
-        legenda: 'Mulheres cantando cânticos sagrados antes da derrubada da barriguda. (Foto: Arquivo pessoal)',
+        legenda: 'Mulheres cantando cânticos sagrados antes da derrubada da barriguda. (Foto e vídeo: Arquivo pessoal)',
       },
 
      {
@@ -469,7 +470,7 @@ legenda: 'Retratos da aldeia',
       {
         type: 'imagem',
         src: cap2_img8,
-        legenda: 'Árvore de barriguda sendo derrubada, preparada e dividida em quatro partes na mata. (Foto: Arquivo pessoal)',
+        legenda: 'Árvore de barriguda sendo derrubada, preparada e dividida em quatro partes na mata. (Foto e vídeo: Arquivo pessoal)',
       },
 
          {
@@ -537,9 +538,7 @@ legenda: 'Retratos da aldeia',
       {
       type: 'imagensParalelas',
       fotos: [
-        { src: img01 },
-        { src: img04 },
-        { src: img08 },
+     
       ],
       legenda: 'Legenda compartilhada pelas três fotos',
       }
@@ -705,7 +704,7 @@ legenda: 'Retratos da aldeia',
        {
           type: 'imagensVerticaisParalelas',
           fotos: [{src: cap3_img19}],
-          legenda: 'Indígenas seguem pela MA-280 em direção ao local de partida, onde as toras são posicionadas para o início da Corrida de Tora. (Foto: Paulo Ferraz)',
+          legenda: 'Indígenas seguem pela MA-280 em direção ao local de partida, onde as toras são posicionadas para o início da Corrida de Tora. (Foto e vídeo: Paulo Ferraz)',
         },
       
       
@@ -852,7 +851,7 @@ legenda: 'Retratos da aldeia',
       {
        type: 'imagem',
        src: cap4_img1,
-       legenda: 'Crianças observando os cânticos e dança durante ritual a noite. (Foto: Paulo Ferraz)',
+       legenda: 'Crianças observando os cânticos e dança durante ritual à noite. (Foto: Paulo Ferraz)',
      },
 
       {
@@ -867,10 +866,6 @@ legenda: 'Retratos da aldeia',
       {
         type: 'texto',
         content: `Milton demonstra preocupação, especialmente, com a transmissão dos cantos, dos rituais e da língua tradicional.`,
-      }, {
-        type: 'citacao',
-        content: `Hoje nós estamos em um tempo moderno. Estamos com dois mundos: o mundo ocidental e o mundo indígena`,
-        autor: ', comenta.',
       }, 
       
       {
@@ -954,7 +949,7 @@ legenda: 'Retratos da aldeia',
       }, {
         type: 'citacao',
         content: `Porque gravo, registro, grava alguns cânticos que eu não sei e estuda e aprende.`,
-        autor: ', ressalta.',
+        autor: ', ressalta',
       }, 
       
        {

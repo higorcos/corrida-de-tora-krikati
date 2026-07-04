@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 const links = [
   { to: '/',        label: 'Início'   },
-  { to: '/longform',label: 'Longform' },
+  { to: '/longform',label: 'Capítulos' },
   { to: '/galeria', label: 'Galeria'  },
   {/*
   { to: '/videos',  label: 'Vídeos'   },

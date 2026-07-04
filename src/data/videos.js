@@ -40,5 +40,11 @@ export const videos = [
     titulo: '',
     descricao: 'Crianças dando a largada na corrida com a tora menor. (Vídeo: Paulo Ferraz)',
 },
+{
+    id: 8,
+    youtubeId: 'goGZRlTUGXo',
+    titulo: '',
+    descricao: 'Mulher entoando cântico sagrado durante a construção do Seveiro. (Vídeo: Arquivo pessoal)'
+}
 
 ];

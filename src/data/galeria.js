@@ -1,14 +1,4 @@
-import img01 from '../../img/galeria/img01.jpeg'
-import img02 from '../../img/galeria/img02.jpeg'
-import img03 from '../../img/galeria/img03.jpeg'
-import img04 from '../../img/galeria/img04.jpeg'
-import img05 from '../../img/galeria/img05.jpeg'
-import img06 from '../../img/galeria/img06.jpeg'
-import img07 from '../../img/galeria/img07.jpeg'
-import img08 from '../../img/galeria/img08.jpeg'
-import img09 from '../../img/galeria/img09.jpeg'
-import img10 from '../../img/galeria/img10.jpeg'
-import img11 from '../../img/galeria/img11.jpeg'
+
 
 const legendas = {
 'gal_001': 'Corredores retornando à aldeia após a corrida. (Foto: Paulo Ferraz).',

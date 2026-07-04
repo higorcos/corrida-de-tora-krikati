@@ -46,7 +46,7 @@ export default function Home() {
         <div className="absolute right-0 top-0 bottom-0 w-2 geo-line opacity-60" />
 
         <div className="relative max-w-6xl mx-auto px-6 w-full animate-fade-in">
-          <span className="section-label text-terra-200 mb-4">Paulo Ferraz</span>
+        
           <h1 className="font-display text-5xl lg:text-1xl text-terra-50 leading-none mb-6">
             {/*<br />
             <span className="text-urucum"> Paulo Ferraz</span>*/}
@@ -76,7 +76,8 @@ export default function Home() {
       <section className="py-20 bg-terra-600">
         <div className="max-w-3xl mx-auto px-6 text-center">
 
-          <h2 className="section-title mb-6">Passado, presente e futuro.</h2>
+          <h2 className="section-title mb-6">Passado, presente e futuro</h2>
+            <span className="section-label text-terra-200 mb-4">Paulo Ferraz</span>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
 

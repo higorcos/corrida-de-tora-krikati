@@ -14,13 +14,13 @@ export default function CronicaCard({ cronica, featured = false }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-terra-900/80 via-transparent to-transparent" />
         <span className="absolute top-4 left-4 bg-urucum text-white text-xs px-3 py-1 uppercase tracking-widest font-sans">
-          longform
+          CAPÍTULO {cronica.id}
         </span>
       </div>
 
       {/* Conteúdo */}
       <div className="p-5">
-        <p className="text-terra-200 text-xs font-sans uppercase tracking-widest mb-2">{cronica.data}</p>
+        {/*<p className="text-terra-200 text-xs font-sans uppercase tracking-widest mb-2">Capitulo</p>*/}
         <h3 className={`font-display text-terra-50 leading-tight mb-3 group-hover:text-urucum-light transition-colors ${
           featured ? 'text-2xl md:text-3xl' : 'text-xl'
         }`}>
@@ -31,7 +31,7 @@ export default function CronicaCard({ cronica, featured = false }) {
         </p>
         <div className="mt-4 flex items-center gap-2">
           <span className="w-8 h-px bg-urucum" />
-          <span className="text-terra-400 text-xs font-sans">{cronica.autor}</span>
+         
         </div>
       </div>
     </Link>

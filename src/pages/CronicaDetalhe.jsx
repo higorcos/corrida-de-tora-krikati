@@ -150,11 +150,14 @@ function Section({ section }) {
 
   if (section.type === 'videoShot') {
     return (
-      <div className="my-12">
+      <div className="my-12 text-center">
         {section.titulo && (
           <p className="section-label mb-3 text-center">{section.titulo}</p>
         )}
         <VideoEmbed youtubeId={section.youtubeId} titulo={section.titulo} shot className="max-w-[67.8%] mx-auto" />
+         <span className="text-center text-terra-400 text-sm font-serif italic mt-3 px-4">
+            {section.legenda}
+          </span>
       </div>
     )
   }

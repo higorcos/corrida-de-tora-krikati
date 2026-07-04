@@ -73,11 +73,11 @@ export default function Galeria() {
         </div>
       </div>
 
-      <Videos />
+
 
       {/* Masonry Grid */}
       <section ref={gridRef} className="py-6 bg-terra-700 scroll-mt-20">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-1">
 
           {/* mobile: 2 colunas */}
           <div className="flex gap-3 md:hidden">
@@ -97,7 +97,7 @@ export default function Galeria() {
           </div>
 
           {/* Paginação */}
-          <div className="mt-10 flex flex-col items-center gap-4">
+          <div className="mt-2 flex flex-col items-center gap-4">
 
             {/* Números de página */}
             <div className="flex flex-wrap justify-center gap-1.5">
@@ -121,7 +121,7 @@ export default function Galeria() {
               <button
                 onClick={() => goTo(page - 1)}
                 disabled={page === 0}
-                className="px-5 py-2 text-xs font-sans uppercase tracking-widest bg-terra-800 text-terra-300 hover:bg-terra-600 hover:text-terra-50 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                className="px-1 py-1 text-xs font-sans uppercase tracking-widest bg-terra-800 text-terra-300 hover:bg-terra-600 hover:text-terra-50 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 ← Anterior
               </button>
@@ -157,6 +157,7 @@ export default function Galeria() {
           onNext={next}
         />
       )}
+     <Videos />
     </>
   )
 }
