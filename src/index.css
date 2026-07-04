@@ -57,8 +57,13 @@
   }
 
   .prose-indigena p {
-    @apply font-serif text-lg text-terra-100 leading-relaxed  mb-6;
+    @apply font-serif text-lg text-terra-100 leading-relaxed mb-6;
+  }
 
+  .prose-indigena p i,
+  .prose-indigena p em {
+    @apply font-display not-italic;
+    font-style: italic;
   }
 
   .prose-indigena h2 {
