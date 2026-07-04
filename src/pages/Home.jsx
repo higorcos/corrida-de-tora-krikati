@@ -83,23 +83,25 @@ export default function Home() {
 
             A Corrida de Tora é uma das mais importantes expressões culturais do povo Krikati, pertencente ao conjunto dos povos Timbira, no Maranhão. Mais do que uma corrida, ela reúne memória, espiritualidade, identidade e conhecimentos transmitidos entre gerações.
           </p>
+          <br></br>
 
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
 
             Preservada principalmente pela tradição oral, a prática continua ocupando um papel central na vida da comunidade, conectando passado, presente e futuro.
           </p>
+          <br></br>
 
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
 
             Este trabalho apresenta um mergulho na Corrida de Tora a partir da convivência com os moradores da Aldeia São José e do acompanhamento de um ritual de encerramento de luto.
           </p>
+          <br></br>
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
 
             Ao longo dos quatro capítulos, o leitor conhecerá como era a tradição antigamente, os significados e símbolos que envolvem o ritual, a vivência dos três dias da corrida e os desafios enfrentados para manter viva uma das mais importantes expressões culturais do povo Krikati.
           </p>
-          <p className="font-serif text-lg text-terra-100 leading-relaxed">
-
-          </p>
+        
+          
         </div>
       </section>
 
