@@ -18,6 +18,10 @@
   .section-label {
     @apply text-urucum uppercase tracking-widest text-xs font-sans font-semibold mb-3 block;
   }
+   .section-label2 {
+    @apply text-urucum  tracking-widest text-xs font-sans font-semibold mb-3 block;
+  }
+
 
   .section-title {
     @apply font-display text-3xl md:text-4xl text-terra-50 leading-tight;

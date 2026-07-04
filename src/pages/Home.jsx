@@ -78,7 +78,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-6">
 
           <h2 className="section-title mb-6 text-center">Passado, presente e futuro</h2>
-            <span className="section-label text-terra-200 mb-4 text-center">Paulo Ferraz</span>
+            <span className="section-label2 text-terra-200 mb-4 text-center">Por PAULO FERRAZ</span>
           <div className="w-16 h-px bg-urucum mx-auto mb-8" />
           <p className="font-serif text-lg text-terra-100 leading-relaxed">
 
