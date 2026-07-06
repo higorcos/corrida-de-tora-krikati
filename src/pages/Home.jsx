@@ -6,7 +6,6 @@ import VideoCard from '../components/VideoCard'
 import VideoEmbed from '../components/VideoEmbed'
 import CronicaCard from '../components/CronicaCard'
 import treeImg from '../../img/galeria/img07.jpeg'
-//import autor from '../../img/autor1.png'
 import autor from '../../img/autor.jpeg'
 import { useState } from 'react'
 

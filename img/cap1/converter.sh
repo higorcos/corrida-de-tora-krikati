@@ -1,8 +1,7 @@
 #!/bin/bash
-# Converte todos os arquivos .heic e .HEIC da pasta atual para .png
-
+# Converte todos os arquivos .png e .PNG da pasta atual para .webp
 shopt -s nocaseglob
-for foto in *.heic; do
+for foto in *.png; do
     # Verifica se existem arquivos correspondentes
     [ -e "$foto" ] || continue
     
@@ -10,7 +9,6 @@ for foto in *.heic; do
     nome="${foto%.*}"
     
     echo "Convertendo: $foto ..."
-    convert "$foto" "$nome.png"
+    convert "$foto" "$nome.webp"
 done
-
 echo "✅ Conversão concluída com sucesso!"

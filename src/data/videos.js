@@ -38,7 +38,7 @@ export const videos = [
     id: 7,
     youtubeId: 'gXNt1t3R1Co',
     titulo: '',
-    descricao: 'Crianças dando a largada na corrida com a tora menor. (Vídeo: Paulo Ferraz)',
+    descricao: 'Crianças dando a largada na corrida com a tora menor. (Vídeo: Arquivo pessoal)',
 },
 {
     id: 8,
