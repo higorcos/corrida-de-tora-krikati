@@ -68,7 +68,7 @@ export default function Footer() {
         {/* Nota final + navegação */}
         <div className="border-t border-terra-700 pt-1 text-center">
           <p className="font-serif text-terra-500 text-xs leading-relaxed">
-            © {new Date().getFullYear()} Paulo Ferraz. Todos os direitos reservados. Desenvolvido por Higor Costa.
+            © {new Date().getFullYear()} Paulo Ferraz. Todos os direitos reservados. Desenvolvido por <a href="https://higorcosta.kerodon.dev.br" target="_blank" rel="noopener noreferrer">Higor Costa</a>.
           </p>
         </div>
 
