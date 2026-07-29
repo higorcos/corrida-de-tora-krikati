@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://higorcos.github.io/corrida-de-tora-krikati/sitemap.xml
